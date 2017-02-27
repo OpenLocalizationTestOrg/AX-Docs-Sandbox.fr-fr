@@ -1,25 +1,28 @@
 ---
-title: Procurement and sourcing in the public sector in France | Microsoft Docs
+title: Procurement and sourcing in the public sector in France
 description: "This article explains how the standard features that are related to procurement and sourcing are augmented for French entities in the public sector. These features are used to help meet the requirements of the Code des Marchés Publics."
 author: rschloma
 manager: AnnBe
-ms.date: 2015-12-07 17:55:41
+ms.date: 2015-12-07 17 - 55 - 41
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
-keywords: AgreementClassification, PurchAgreement, SysPolicy
+ms.search.form: AgreementClassification, PurchAgreement, SysPolicy
 audience: Application User
 ms.reviewer: rschloma
-ms.suite: Released- Dynamics AX 7.0.0
+ms.search.scope: AX 7.0.0, Operations
 ms.custom: 19891
-ms.assetid: f1c8e2cb-1001-4114-8f62-d804faea033f
-ms.region: France
-ms.industry: Public sector
+ms.assetid: 3d3c89eb-5d6b-4d79-879b-ad6bf4bade35
+ms.search.region: France
+ms.search.industry: Public sector
 ms.author: brpotter
+ms.dyn365.ops.intro: 01-02-2016
+ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 744ac447b01dee241043ba27e3b1ffdcb0022a1b
-ms.openlocfilehash: d93017554d2f256e86602135e4d29bd36bcc441b
+ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
+ms.openlocfilehash: b5d9e710de641aaf7807188146eaaf603a705eba
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -56,10 +59,5 @@ You can create purchase agreement classifications that add administrative fields
 -   To add information about milestones and tasks to purchase agreements, select the **Activities** option on the purchase agreement classification.
 
  
-
-
-
-
-<!--HONumber=Feb17_HO3-->
 
 

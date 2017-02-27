@@ -1,25 +1,28 @@
 ---
-title: Accounts payable in the public sector | Microsoft Docs
+title: Accounts payable in the public sector
 description: This article introduces you to the public sector Accounts payable functionality that is integrated with Microsoft Dynamics AX. This functionality includes PO codes, posting definitions, one-time vendor invoicing, 1099 tax forms, cash discounts, vendor certification types, Project Accounting activity summary, electronic payments, cover and signature pages for reports, PO line amounts, and vendor invoice journal pages.
 author: rschloma
 manager: AnnBe
-ms.date: 2015-12-07 16:32:05
+ms.date: 2015-12-07 16 - 32 - 05
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
-keywords: BudgetParameters, CustParameters, LedgerJournalTable, OMLegalEntity, PurchAgreementListPage, PurchTableListPage, SrmParameters, VendCertificationType, VendCoverPageLayout, VendOpenInvoicesListPage, VendParametersVendParameters, VendTableListPage
+ms.search.form: BudgetParameters, CustParameters, LedgerJournalTable, OMLegalEntity, PurchAgreementListPage, PurchTableListPage, SrmParameters, VendCertificationType, VendCoverPageLayout, VendOpenInvoicesListPage, VendParametersVendParameters, VendTableListPage
 audience: Application User
 ms.reviewer: rschloma
-ms.suite: Released- Dynamics AX 7.0.0
+ms.search.scope: AX 7.0.0, Operations
 ms.custom: 19661
-ms.assetid: 8af90393-cac5-455f-9b91-2fc6d0d975f1
-ms.region: Global
-ms.industry: Public sector
+ms.assetid: b4c903dd-5ec7-4ec5-9dc9-77ba4f00fab8
+ms.search.region: Global
+ms.search.industry: Public sector
 ms.author: brpotter
+ms.dyn365.ops.intro: 01-02-2016
+ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: b53ef103bfeca05effac07a4b7c434547dcbb230
-ms.openlocfilehash: fd6bbb59e131dc34c7cff0b6dd45f45f15d899b4
+ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
+ms.openlocfilehash: 5592eeecce8716b62764484f357a1afeb3009730
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -39,10 +42,10 @@ Before you begin to adjust the settings and enter your data, you should complete
 
 After you’ve set up the prerequisites,  you might have to set up the following Accounts payable features:
 
--   [Purchase order codes in the public sector](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/purchase-order-codes-in-the-public-sector) –  You can create codes and special messages for confirming purchase orders. A confirming purchase order bypasses the typical purchasing process. For example, you authorize an unplanned order by using a purchase order number at the time of a purchase, instead of by using a document that is provided before the item is required. **Note:** This also applies to Procurement and sourcing.
--   [Posting definitions in the public sector](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/posting-definitions-in-the-public-sector) – You can use posting definitions to create subledger journal lines for originating transactions that meet selected criteria. For example, you can use positing definitions to generate multiple balanced ledger entries, based on attributes such as transaction types and accounts. **Note:** This also applies to General ledger, Budgeting, and Accounts receivable.
--   [One-time vendors in the public sector](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/one-time-vendors-in-the-public-sector) – When approval or a contract in the form of a purchase order isn't required, you can quickly create one or more invoices at the same time that you create a record for the vendor. For more information, see [Planning for one-time vendors in the public sector](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/planning-for-one-time-vendors-in-the-public-sector).
--   [1099 form overview in the public sector](https://docs.microsoft.com/en-us/dynamics365/operations/financials/localizations/north-america/form-1099-in-the-public-sector) – If you do business with vendors that are subject to United States 1099 tax, you must track the amount that you pay to each vendor and report that information at the end of the calendar year. Public sector organizations use forms 1099-G and 1099-S. **Note:** This also applies to Procurement and sourcing.
+-   [Purchase order codes in the public sector](purchase-order-codes-public-sector.md) –  You can create codes and special messages for confirming purchase orders. A confirming purchase order bypasses the typical purchasing process. For example, you authorize an unplanned order by using a purchase order number at the time of a purchase, instead of by using a document that is provided before the item is required. **Note:** This also applies to Procurement and sourcing.
+-   [Posting definitions in the public sector](posting-definitions-public-sector.md) – You can use posting definitions to create subledger journal lines for originating transactions that meet selected criteria. For example, you can use positing definitions to generate multiple balanced ledger entries, based on attributes such as transaction types and accounts. **Note:** This also applies to General ledger, Budgeting, and Accounts receivable.
+-   [One-time vendors in the public sector](one-time-vendors-public-sector.md) – When approval or a contract in the form of a purchase order isn't required, you can quickly create one or more invoices at the same time that you create a record for the vendor. For more information, see [Planning for one-time vendors in the public sector](plan-one-time-vendors-public-sector.md).
+-   [1099 form overview in the public sector](form-1099-public-sector.md) – If you do business with vendors that are subject to United States 1099 tax, you must track the amount that you pay to each vendor and report that information at the end of the calendar year. Public sector organizations use forms 1099-G and 1099-S. **Note:** This also applies to Procurement and sourcing.
 
 ## <a name="additional-public-sector-functionality"></a>Additional public sector functionality
 The remaining sections in this article describe the Accounts payable functionality that is available for the public sector.
@@ -92,17 +95,12 @@ You can view line amounts for a purchase order. These amounts include the curren
 
 [Accounts payable](https://ax.help.dynamics.com/en/wiki/Accounts-payable/)
 
-[Accounts receivable in the public sector](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/accounts-receivable-in-the-public-sector)
+[Accounts receivable in the public sector](accounts-receivable-public-sector.md)
 
-[Budgeting in the public sector](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/budgeting-in-the-public-sector)
+[Budgeting in the public sector](budgeting-public-sector.md)
 
 [General ledger in the public sector](https://ax.help.dynamics.com/en/wiki/general-ledger-in-the-public- sector/)
 
 [Procurement and sourcing in the public sector](https://ax.help.dynamics.com/en/wiki/procurement-and-courcing-in-the-public- sector/)
-
-
-
-
-<!--HONumber=Feb17_HO3-->
 
 

@@ -1,25 +1,28 @@
 ---
-title: Security roles in the public sector | Microsoft Docs
+title: Security roles in the public sector
 description: This article describes the functionality for public sector security roles. This functionality includes the Project manager and Purchasing agent roles for the public sector.
 author: rschloma
 manager: AnnBe
-ms.date: 2015-12-07 16:59:50
+ms.date: 2015-12-07 16 - 59 - 50
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
-keywords: UserRequestListPage
+ms.search.form: UserRequestListPage
 audience: Application User
 ms.reviewer: rschloma
-ms.suite: Released- Dynamics AX 7.0.0
+ms.search.scope: AX 7.0.0, Operations
 ms.custom: 19721
-ms.assetid: cbf6a52a-2ae8-4dff-aec0-f1af599cd0f6
-ms.region: Global
-ms.industry: Public sector
+ms.assetid: e26a6d93-851e-46be-8543-de2798909350
+ms.search.region: Global
+ms.search.industry: Public sector
 ms.author: brpotter
+ms.dyn365.ops.intro: 01-02-2016
+ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 744ac447b01dee241043ba27e3b1ffdcb0022a1b
-ms.openlocfilehash: 24a5120e77ee1ec1a2720d93d679188dfda42e74
+ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
+ms.openlocfilehash: f59d7cb5458860e1076ff5efc872a5f812e33372
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -95,11 +98,6 @@ After the users are created, you assign them to roles on the **Assign users to r
 <a name="see-also"></a>See also
 --------
 
-[Role-based security](https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/system-administration/role-based-security-in-microsoft-dynamics-ax)
-
-
-
-
-<!--HONumber=Feb17_HO3-->
+[Role-based security](role-based-security.md)
 
 

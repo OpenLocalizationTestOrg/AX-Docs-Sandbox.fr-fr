@@ -1,24 +1,27 @@
 ---
-title: Plan for one-time vendors in the public sector | Microsoft Docs
+title: Plan for one-time vendors in the public sector
 description: This article explains how to prepare to import and create multiple one-time vendors and invoices.
 author: rschloma
 manager: AnnBe
-ms.date: 2015-12-13 05:20:08
+ms.date: 2015-12-13 05 - 20 - 08
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.suite: Released- Dynamics AX 7.0.0
+ms.search.scope: AX 7.0.0, Operations
 ms.custom: 27251
-ms.assetid: 0415edae-5101-4411-a466-5455517918f5
-ms.region: Global
-ms.industry: Public sector
+ms.assetid: 936570cb-932f-4027-b3c7-2235ad79bc1c
+ms.search.region: Global
+ms.search.industry: Public sector
 ms.author: brpotter
+ms.dyn365.ops.intro: 01-02-2016
+ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 744ac447b01dee241043ba27e3b1ffdcb0022a1b
-ms.openlocfilehash: 0bb099daeaa21bfc197b7490318d5f4e351f01a5
+ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
+ms.openlocfilehash: 4e933bb05409dd5c6038809d4c26544adac9d172
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -166,18 +169,13 @@ Percent
 Decimal values are allowed.
 
 ## <a name="what-do-i-do-next"></a>What do I do next?
-After you’ve set up the prerequisites that you require, see [One time vendors in the public sector](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/one-time-vendors-in-the-public-sector).
+After you’ve set up the prerequisites that you require, see [One time vendors in the public sector](one-time-vendors-public-sector.md).
 
 <a name="see-also"></a>See also
 --------
 
-[One-time vendors in the public sector](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/one-time-vendors-in-the-public-sector)
+[One-time vendors in the public sector](one-time-vendors-public-sector.md)
 
-[Accounts payable in the public sector](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/accounts-payable-in-the-public-sector)
-
-
-
-
-<!--HONumber=Feb17_HO3-->
+[Accounts payable in the public sector](accounts-payable-public-sector.md)
 
 

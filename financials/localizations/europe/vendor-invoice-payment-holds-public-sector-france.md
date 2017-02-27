@@ -1,24 +1,27 @@
 ---
-title: Vendor invoice payment holds in the public sector in France | Microsoft Docs
+title: Vendor invoice payment holds in the public sector in France
 description: The standard processes related to vendor invoice payment holds in Microsoft Dynamics &quot;AX 7&quot; are augmented for French entities in the public sector. This topic describes the vendor invoice payment holds functionality used by the public sector in France.
 author: rschloma
 manager: AnnBe
-ms.date: 2015-12-13 05:21:41
+ms.date: 2015-12-13 05 - 21 - 41
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.suite: Released- Dynamics AX 7.0.0
+ms.search.scope: AX 7.0.0, Operations
 ms.custom: 27331
-ms.assetid: f4f4a51f-0aa9-4a56-9835-a60940dfc7ab
-ms.region: France
-ms.industry: Public sector
+ms.assetid: 09ece137-e8fd-41ec-ae46-dc922b327999
+ms.search.region: France
+ms.search.industry: Public sector
 ms.author: brpotter
+ms.dyn365.ops.intro: 01-02-2016
+ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 744ac447b01dee241043ba27e3b1ffdcb0022a1b
-ms.openlocfilehash: 3e1bb8cdc941ce34bf5e33b3548e787a10d21ddf
+ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
+ms.openlocfilehash: 87a2a306e988fe0d5ce159513bb8b2afaa443f45
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -66,10 +69,5 @@ Place or release a payment hold for all vendor invoices that are associated with
 
 ## <a name="can-i-settle-an-invoice-that-is-on-hold"></a>Can I settle an invoice that is on hold?
 If you are assigned to the same user role as the user who placed the hold, you can clear the hold from the **Settle transactions** page and settle the vendor invoice. When you place a payment hold, the **Invoice payment hold** option is automatically selected on the **Payment** tab of the **Settle transactions** page. This prevents a vendor invoice from being settled until the hold is released.
-
-
-
-
-<!--HONumber=Feb17_HO3-->
 
 

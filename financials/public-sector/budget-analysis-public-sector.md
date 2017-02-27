@@ -1,25 +1,28 @@
 ---
-title: Budget analysis in the public sector | Microsoft Docs
+title: Budget analysis in the public sector
 description: This topic describes how to use the Budget analysis page to view revenues and expenditures by financial dimension, and it answers frequently asked questions, including differences between the Budget analysis page and the Budget control statistics page.
 author: rschloma
 manager: AnnBe
-ms.date: 2015-12-07 16:23:04
+ms.date: 2015-12-07 16 - 23 - 04
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
-keywords: BudgetAnalysisInquiry_PSN, BudgetControlStatistics, DimensionDetails, LedgerPeriodCode, LedgerTrialBalanceListPage
+ms.search.form: BudgetAnalysisInquiry_PSN, BudgetControlStatistics, DimensionDetails, LedgerPeriodCode, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: rschloma
-ms.suite: Released- Dynamics AX 7.0.0
+ms.search.scope: AX 7.0.0, Operations
 ms.custom: 19641
-ms.assetid: 47301dbd-8ce6-4f50-ad81-745c71b81b39
-ms.region: Global
-ms.industry: Public sector
+ms.assetid: a1055712-0a20-425d-939d-de8564c358b8
+ms.search.region: Global
+ms.search.industry: Public sector
 ms.author: brpotter
+ms.dyn365.ops.intro: 01-02-2016
+ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 744ac447b01dee241043ba27e3b1ffdcb0022a1b
-ms.openlocfilehash: d4bb7e1eaec48d8d04166078c4ef2132356e2fdc
+ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
+ms.openlocfilehash: 62995086f66c3fce451f6b6a7a848b10fcafcac9
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -28,7 +31,7 @@ ms.openlocfilehash: d4bb7e1eaec48d8d04166078c4ef2132356e2fdc
 
 This topic describes how to use the Budget analysis page to view revenues and expenditures by financial dimension, and it answers frequently asked questions, including differences between the Budget analysis page and the Budget control statistics page. 
 
-This topic describes the budget analysis functionality available for the public sector. Before you read this topic, you should also read [Budgeting in the public sector.](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/budgeting-in-the-public-sector) You may be required to set up the following Budgeting features for the public sector. Use the **Budget analysis** page to view revenues and expenditures by financial dimension, using a combination of general ledger and budget control data. You can view summarized amounts and transaction details for revised budgets, actual expenditures, encumbrances, and pre-encumbrances. The revenues and expenditures can be summarized by the different levels of the financial dimensions. For example, if the budget dimensions are fund, organization, and main account, you can select **Fund**, **Organization**, or **Main account** to see the financial activity summarized at that level. You also use the **Budget analysis** page to select a financial dimension set and a column set. Select or specify the following, and then click **Update totals:**
+This topic describes the budget analysis functionality available for the public sector. Before you read this topic, you should also read [Budgeting in the public sector.](budgeting-public-sector.md) You may be required to set up the following Budgeting features for the public sector. Use the **Budget analysis** page to view revenues and expenditures by financial dimension, using a combination of general ledger and budget control data. You can view summarized amounts and transaction details for revised budgets, actual expenditures, encumbrances, and pre-encumbrances. The revenues and expenditures can be summarized by the different levels of the financial dimensions. For example, if the budget dimensions are fund, organization, and main account, you can select **Fund**, **Organization**, or **Main account** to see the financial activity summarized at that level. You also use the **Budget analysis** page to select a financial dimension set and a column set. Select or specify the following, and then click **Update totals:**
 
 -   Parameters
 -   Date information
@@ -92,10 +95,5 @@ After you change the settings at the top of the page, click **Update totals** to
 --------
 
 [Budgeting in the public sector](https://ax.help.dynamics.com/en/wiki/Budgeting-in-the-public-sector/)
-
-
-
-
-<!--HONumber=Feb17_HO3-->
 
 

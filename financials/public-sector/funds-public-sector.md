@@ -1,25 +1,28 @@
 ---
-title: Funds in the public sector | Microsoft Docs
+title: Funds in the public sector
 description: A fund is a self-balancing set of financial books that is used to control and monitor the planned use of resources, often in compliance with legal and administrative requirements. Public-sector organizations use funds to demonstrate their fiscal accountability.
 author: rschloma
 manager: AnnBe
-ms.date: 2015-12-07 16:20:40
+ms.date: 2015-12-07 16 - 20 - 40
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
-keywords: LedgerFund, LedgerFundType
+ms.search.form: LedgerFund, LedgerFundType
 audience: Application User
 ms.reviewer: rschloma
-ms.suite: Released- Dynamics AX 7.0.0
+ms.search.scope: AX 7.0.0, Operations
 ms.custom: 19571
-ms.assetid: 6d9646fe-b4cf-48cd-ae81-913bbd2f59d9
-ms.region: Global
-ms.industry: Public sector
+ms.assetid: c746c09f-dc9e-4381-ae92-e1af484064b6
+ms.search.region: Global
+ms.search.industry: Public sector
 ms.author: brpotter
+ms.dyn365.ops.intro: 01-02-2016
+ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 744ac447b01dee241043ba27e3b1ffdcb0022a1b
-ms.openlocfilehash: fb68df55de6448dd4611ca92fd5c81d1fc929492
+ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
+ms.openlocfilehash: b7039ca67df978018d9201af92d5cbfea8d8c81a
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -31,7 +34,7 @@ A fund is a self-balancing set of financial books that is used to control and mo
 <a name="what-general-ledger-parameters-should-be-set-for-funds"></a>What General ledger parameters should be set for funds?
 -------------------------------------------------------
 
-To learn about the General ledger parameters required for funds, see [General ledger in the public sector](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/general-ledger-in-the-public-sector).
+To learn about the General ledger parameters required for funds, see [General ledger in the public sector](general-ledger-public-sector.md).
 
 ## <a name="what-fund-classes-and-fund-types-do-i-need-to-set-up"></a>What fund classes and fund types do I need to set up?
 The Governmental Accounting Standards Board (GASB) recommends a set of Generally Accepted Accounting Principles (GAAP) for state and local governmental accounting.  The GAAP identifies eight fund types that are categorized under the three fund classes:
@@ -87,11 +90,6 @@ The following table shows these funds grouped by fund class and fund type.
 Each fund must have a unique fund number. In Dynamics 365 for Operations, fund numbers are used as dimension values in financial account numbers where a dimension has been mapped to a fund. When an account number is linked to a particular fund, it belongs to the set of financial books that are contained by that fund. Public sector organizations usually require balanced entries for financial dimensions related to funds. When a financial dimension or a combination of dimensions is marked to require balanced entries, the system will not post a transaction where debits do not equal credits for the financial dimension.
 
 ## <a name="how-do-i-set-a-fund-balance-to-carry-over-to-the-new-year"></a>How do I set a fund balance to carry over to the new year?
-To learn about year-end processing for funds, see [Year-end processing in the public sector](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/year-end-processing-in-the-public-sector).
-
-
-
-
-<!--HONumber=Feb17_HO3-->
+To learn about year-end processing for funds, see [Year-end processing in the public sector](year-end-processing-public-sector.md).
 
 

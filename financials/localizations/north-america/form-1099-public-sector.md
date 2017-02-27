@@ -1,25 +1,28 @@
 ---
-title: Form 1099 in the public sector | Microsoft Docs
+title: Form 1099 in the public sector
 description: This article provides tips and information about how to set up Form 1099 functionality for Accounts payable in the public sector.
 author: rschloma
 manager: AnnBe
-ms.date: 2015-12-12 23:41:13
+ms.date: 2015-12-12 23 - 41 - 13
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
-keywords: LedgerTransVoucher, SysConfiguration, Tax1099Summary, VendTableListPage
+ms.search.form: LedgerTransVoucher, SysConfiguration, Tax1099Summary, VendTableListPage
 audience: Application User
 ms.reviewer: rschloma
-ms.suite: Released- Dynamics AX 7.0.0
+ms.search.scope: AX 7.0.0, Operations
 ms.custom: 26181
-ms.assetid: 20994784-a3bb-42f8-bcaa-5fcc09117cdf
-ms.region: United States
-ms.industry: Public sector
+ms.assetid: 10f56dea-ea2d-48ea-9622-4ef715eb1179
+ms.search.region: United States
+ms.search.industry: Public sector
 ms.author: brpotter
+ms.dyn365.ops.intro: 01-02-2016
+ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 744ac447b01dee241043ba27e3b1ffdcb0022a1b
-ms.openlocfilehash: 30c5512b9afc67823ac535466886de1f2b471da4
+ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
+ms.openlocfilehash: cec277da8e8a50f135f8b0a031ae88c6e6c3f7aa
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -52,10 +55,5 @@ You also use the **Vendor settlement for 1099s** page to enter or update 1099 in
 --------
 
 [Accounts payable in the public sector](https://ax.help.dynamics.com/en/wiki/Accounts-payable-in-the-public-sector/)
-
-
-
-
-<!--HONumber=Feb17_HO3-->
 
 

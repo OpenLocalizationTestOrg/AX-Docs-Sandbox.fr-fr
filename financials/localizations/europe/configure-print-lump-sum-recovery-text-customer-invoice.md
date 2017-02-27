@@ -1,23 +1,26 @@
 ---
-title: Print lump sum recovery text on a customer invoice | Microsoft Docs
+title: Print lump sum recovery text on a customer invoice
 description: This article provides information about how to print a lump sum recovery text that shows the penalty amount on customer invoices.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-02-24 15:09:01
+ms.date: 2016-02-24 15 - 09 - 01
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.suite: Released- Dynamics AX 7.0.0
+ms.search.scope: AX 7.0.0, Operations
 ms.custom: 53161
-ms.assetid: 070ea565-4f5e-4e18-8a3f-b69bc799926f
-ms.region: France
+ms.assetid: 6ba08d6a-b6d1-4d2f-a7e6-a486488cd604
+ms.search.region: France
 ms.author: epopov
+ms.dyn365.ops.intro: 01-02-2016
+ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 744ac447b01dee241043ba27e3b1ffdcb0022a1b
-ms.openlocfilehash: 038ca766b041ee6e7369026b53ccf8a20d2cb5af
+ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
+ms.openlocfilehash: bc0a56f038f5e57801a437cb5838662cac6f4ca5
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -33,10 +36,5 @@ Use the **Form setup** page to set up the parameters to print a lump sum recover
 
 ## <a name="print-the-lump-sum-recovery-text-on-a-customer-invoice"></a>Print the lump sum recovery text on a customer invoice
 Use the **Posting invoice** page to print the lump sum recovery text that shows the penalty amount on customer invoices. On the **Posting invoice** page, select the **Print lump sum recovery text** check box for each line. A selected check box indicates that the lump sum recovery text is printed on the customer invoices. When you post the sales order, the lump sum recovery text is printed on the customer invoice. You can also print the lump sum recovery text on a customer invoice that you print from the **Invoice journal** page.
-
-
-
-
-<!--HONumber=Feb17_HO3-->
 
 

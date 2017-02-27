@@ -1,25 +1,28 @@
 ---
-title: Titres de recette in the public sector in France | Microsoft Docs
+title: Titres de recette in the public sector in France
 description: The titre de recette is used by the director to notify the accountant that the organization is entitled to collect a specific amount from another entity, and to authorize the accountant to deposit that amount. The director or the accountant may delegate a representative to perform the task, but the responsibility for each task remains with the director or the accountant. The titre maintains the strict separation that is required between the operational role of the director and the accounting role of the accountant.
 author: rschloma
 manager: AnnBe
-ms.date: 2015-12-07 17:56:01
+ms.date: 2015-12-07 17 - 56 - 01
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
-keywords: CustFreeInvoice
+ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: rschloma
-ms.suite: Released- Dynamics AX 7.0.0
+ms.search.scope: AX 7.0.0, Operations
 ms.custom: 19931
-ms.assetid: ea94f78a-84d5-46e3-b451-0d1106913828
-ms.region: France
-ms.industry: Public sector
+ms.assetid: 01d7ba2b-32b7-43aa-8edb-7a2ed700363a
+ms.search.region: France
+ms.search.industry: Public sector
 ms.author: brpotter
+ms.dyn365.ops.intro: 01-02-2016
+ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 744ac447b01dee241043ba27e3b1ffdcb0022a1b
-ms.openlocfilehash: be27b3083a89b4303a9935edcb4e0dea9da3a7f4
+ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
+ms.openlocfilehash: 9a9b71b8a408bf55289095e92eb595c54fa5a37d
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -65,10 +68,5 @@ To open the database inquiry page on the **Maintain titres de recette** page, sp
     | Titre | Titre         | Accountant acceptance status | "Rejected" |
 
 
-
-
-
-
-<!--HONumber=Feb17_HO3-->
 
 

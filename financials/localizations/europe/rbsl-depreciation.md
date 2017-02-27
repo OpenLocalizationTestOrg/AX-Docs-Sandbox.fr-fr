@@ -1,23 +1,25 @@
 ---
-title: RB/SL depreciation | Microsoft Docs
+title: RB/SL depreciation
 description: RB/SL is a depreciation method that is used in France. Depreciation amounts are calculated by using both the reducing balance depreciation method and the straight-line remaining depreciation method. The larger of the two calculated depreciation amounts is then used as the RB/SL reducing balance depreciation amount.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-01-28 18:31:28
+ms.date: 2016-01-28 18 - 31 - 28
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
-ms.suite: Released- Dynamics AX 7.0.0
+ms.search.scope: AX 7.0.0, Operations
 ms.custom: 30271
-ms.assetid: fe7ed65a-0037-423a-b78a-02f0ac5e259a
-ms.region: France
+ms.assetid: 25501947-dace-438f-9261-a4e9b3b10071
+ms.search.region: France
 ms.author: anasyash
+ms.dyn365.ops.intro: 01-02-2016
+ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 744ac447b01dee241043ba27e3b1ffdcb0022a1b
-ms.openlocfilehash: 82bf3b58c521e883dd293349a46c0ab8e9ad449c
+ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
+ms.openlocfilehash: ccf221c60bd3207d2a8bcc36776bc167cd580fe2
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -44,11 +46,6 @@ When you create a **Fixed asset group/value model** setup, you specify the numbe
 | 2020      | 143.47                            | 50.21                               | 143.47                                | 0.00               |
 | **Total** | **Not applicable**                | **Not applicable**                  | **1,000.00**                          | **Not applicable** |
 
-**Note:** If you depreciated an asset by using fixed asset software other than Microsoft Dynamics AX, you must post the acquisition and the accumulated depreciation in Dynamics AX for the period before you started using Dynamics AX. For example, if you started using Dynamics AX on January 1, 2016, you must post the acquisition and accumulated depreciation in Dynamics AX for the period that ended December 31, 2015. After you post the acquisition, you must change the acquisition date to the correct date from your previous software and enter the remaining life of the asset. You can then depreciate the asset as usual, starting on January 1, 2016.
-
-
-
-
-<!--HONumber=Feb17_HO3-->
+**Note:** If you depreciated an asset by using fixed asset software other than Microsoft Dynamics 365 for Operations, you must post the acquisition and the accumulated depreciation in Dynamics 365 for Operations for the period before you started using Dynamics 365 for Operations. For example, if you started using Dynamics 365 for Operations on January 1, 2016, you must post the acquisition and accumulated depreciation in Dynamics 365 for Operations for the period that ended December 31, 2015. After you post the acquisition, you must change the acquisition date to the correct date from your previous software and enter the remaining life of the asset. You can then depreciate the asset as usual, starting on January 1, 2016.
 
 

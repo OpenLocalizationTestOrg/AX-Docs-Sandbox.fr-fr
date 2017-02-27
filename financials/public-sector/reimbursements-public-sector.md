@@ -1,25 +1,28 @@
 ---
-title: Reimbursements in the public sector | Microsoft Docs
+title: Reimbursements in the public sector
 description: This topic answers common questions related to reimbursements in the public sector.
 author: rschloma
 manager: AnnBe
-ms.date: 2015-12-13 05:21:25
+ms.date: 2015-12-13 05 - 21 - 25
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
-keywords: CustBillingClassification
+ms.search.form: CustBillingClassification
 audience: Application User
 ms.reviewer: rschloma
-ms.suite: Released- Dynamics AX 7.0.0
+ms.search.scope: AX 7.0.0, Operations
 ms.custom: 27311
-ms.assetid: c9951d98-6623-42cf-b389-d8035b45c94a
-ms.region: Global
-ms.industry: Public sector
+ms.assetid: 9d61d1d8-1672-4bd0-ae0d-605b09240890
+ms.search.region: Global
+ms.search.industry: Public sector
 ms.author: brpotter
+ms.dyn365.ops.intro: 01-02-2016
+ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 744ac447b01dee241043ba27e3b1ffdcb0022a1b
-ms.openlocfilehash: 96409cb75236065d40e3216927cd75f7cbce6e57
+ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
+ms.openlocfilehash: f475d179f7afe36f59ca6710d6dfa3a3bd756d3c
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -61,15 +64,10 @@ No, not directly. However, you could use general journal entries to create trans
 <a name="see-also"></a>See also
 --------
 
-[Accounts receivable](https://docs.microsoft.com/en-us/dynamics365/operations/financials/accounts-receivable/accounts-receivable)
+[Accounts receivable](accounts-receivable.md)
 
 [Accounts receivable in the public sector](https://ax.help.dynamics.com/en/?post_type=incsub_wiki&p=169941)
 
 [Billing classifications and billing codes in the public sector](https://ax.help.dynamics.com/en/?post_type=incsub_wiki&p=169891)
-
-
-
-
-<!--HONumber=Feb17_HO3-->
 
 

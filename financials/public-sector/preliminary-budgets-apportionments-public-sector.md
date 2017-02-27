@@ -1,25 +1,28 @@
 ---
-title: Preliminary budgets and apportionments in the public sector | Microsoft Docs
+title: Preliminary budgets and apportionments in the public sector
 description: This topic covers creating a preliminary budget, and setting up budgeting and budget control for apportionments and a preliminary budget.
 author: rschloma
 manager: AnnBe
-ms.date: 2015-12-07 16:57:46
+ms.date: 2015-12-07 16 - 57 - 46
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
-keywords: BudgetBalancesActuals, BudgetControlConfiguration, BudgetTransactionCode
+ms.search.form: BudgetBalancesActuals, BudgetControlConfiguration, BudgetTransactionCode
 audience: Application User
 ms.reviewer: rschloma
-ms.suite: Released- Dynamics AX 7.0.0
+ms.search.scope: AX 7.0.0, Operations
 ms.custom: 19701
-ms.assetid: f32cc3b9-4c0a-4a4e-a82f-8a804762ca91
-ms.region: Global
-ms.industry: Public sector
+ms.assetid: 8885478d-67f5-4db8-b97b-c0734216f8dd
+ms.search.region: Global
+ms.search.industry: Public sector
 ms.author: brpotter
+ms.dyn365.ops.intro: 01-02-2016
+ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 744ac447b01dee241043ba27e3b1ffdcb0022a1b
-ms.openlocfilehash: 3fb33d67be573219c0dc586ee3de480e78b1962a
+ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
+ms.openlocfilehash: 33280ec14790759923da17ca45572e22ff2769f7
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -28,7 +31,7 @@ ms.openlocfilehash: 3fb33d67be573219c0dc586ee3de480e78b1962a
 
 This topic covers creating a preliminary budget, and setting up budgeting and budget control for apportionments and a preliminary budget. 
 
-The following sections in this topic describe the budgeting features that are available for the public sector.  Before you read this topic, you should also read [Budgeting in the public sector](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/budgeting-in-the-public-sector).
+The following sections in this topic describe the budgeting features that are available for the public sector.  Before you read this topic, you should also read [Budgeting in the public sector](budgeting-public-sector.md).
 
 -   [Setting up budgeting and budget control for apportionments](#set-up-budgeting-and-budget-control-for-apportionments) You can define one or more budget codes for the apportionment budget type and configure budget control for apportionments.
 -   [Setting up budgeting and budget control for a preliminary budget](#set-up-budgeting-and-budget-control-for-a-preliminary-budget) You can define budget codes for the preliminary budget type and configure budget control for preliminary budgets.
@@ -100,10 +103,5 @@ To view additional information about preliminary budgets, select the following i
 ### <a name="how-do-i-reverse-a-preliminary-budget"></a>How do I reverse a preliminary budget?
 
 When you create an original budget entry and use the budget model and dimension values that contain preliminary budget amounts, the preliminary budget amounts can be reversed. For example, you could enter a preliminary budget amount of $2,500 in ledger account 50000. Later, if you enter an original budget amount of $10,000 in ledger account 50000, the preliminary budget amount of $2,500 would be reversed. The ledger account 50000 would have a budget amount of $10,000. You can view the budget register entries for the original budget by selecting the budget account entry on the **Budget account entries** FastTab on the **Budget resister entry** page. On the menu bar, click **Related information**, and then click **Budget register entries**.
-
-
-
-
-<!--HONumber=Feb17_HO3-->
 
 

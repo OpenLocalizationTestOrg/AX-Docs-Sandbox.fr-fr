@@ -1,23 +1,26 @@
 ---
-title: Derogatory depreciation for France | Microsoft Docs
+title: Derogatory depreciation for France
 description: This article provides information about derogatory depreciation and how to set it up. In derogatory depreciation, an extra amount of depreciation is calculated as the difference between the depreciation amount on the tax value model and the depreciation amount on the accounting value model during the life of a fixed asset.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-01-29 19:55:51
+ms.date: 2016-01-29 19 - 55 - 51
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.suite: Released- Dynamics AX 7.0.0
+ms.search.scope: AX 7.0.0, Operations
 ms.custom: 30321
-ms.assetid: f2b470e7-e0a6-4516-9380-85c314dbc8ea
-ms.region: France
+ms.assetid: be90464e-2cce-445c-b95b-79ec559b411e
+ms.search.region: France
 ms.author: anasyash
+ms.dyn365.ops.intro: 01-02-2016
+ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 744ac447b01dee241043ba27e3b1ffdcb0022a1b
-ms.openlocfilehash: 671e8ff3684d2ec2e63a96317b3e26fce69fd32f
+ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
+ms.openlocfilehash: 969ded0dbbb6a4f792bff953e5d3beb62f6bbb4f
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -38,10 +41,5 @@ In derogatory depreciation, an extra amount of depreciation is calculated as the
 -   The **Placed in service** dates must be the same in both value models as soon as the models are assigned to a specific asset.
 
 On the **Fixed asset posting profiles** page, you set up GL accounts for **Derogatory increase** and **Derogatory decrease** transactions in the accounting value model. On the **Disposal parameters** page, you can complete the setup to post derogatory increase amounts or derogatory decrease amounts to specific G/L accounts during disposal. You can review the derogatory depreciation amounts for the accounting value model on the **Fixed asset balances** page, the **Fixed asset note** report, or the **Fixed asset movement** report.
-
-
-
-
-<!--HONumber=Feb17_HO3-->
 
 

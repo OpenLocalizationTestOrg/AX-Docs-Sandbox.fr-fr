@@ -1,24 +1,27 @@
 ---
-title: Plan for public sector functionality | Microsoft Docs
+title: Plan for public sector functionality
 description: This article suggests the first steps to setting up Public sector functionality in Microsoft Dynamics 365 for Operations.
 author: rschloma
 manager: AnnBe
-ms.date: 2015-12-07 17:55:20
+ms.date: 2015-12-07 17 - 55 - 20
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.suite: Released- Dynamics AX 7.0.0
+ms.search.scope: AX 7.0.0, Operations
 ms.custom: 19851
-ms.assetid: b87ba96c-a60e-4706-9fbd-f35b3536f44a
-ms.region: Global
-ms.industry: Public sector
+ms.assetid: 877eabf3-19c7-4897-b33e-c5a8a319cb35
+ms.search.region: Global
+ms.search.industry: Public sector
 ms.author: brpotter
+ms.dyn365.ops.intro: 01-02-2016
+ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 744ac447b01dee241043ba27e3b1ffdcb0022a1b
-ms.openlocfilehash: 2dff158438938e070fb0fe635b1c18b36e90490b
+ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
+ms.openlocfilehash: 6fcb9569a7fd51e522d4eb1159cca19f7e9e1339
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -46,7 +49,7 @@ Budget analysis Budget analysis for revised budgets Budget analysis for actual e
 
 ### <a name="french-regulatory-options"></a>French regulatory options
 
-**Note** For information about French regulatory options, see [Public sector accounting in France](https://docs.microsoft.com/en-us/dynamics365/operations/financials/localizations/europe/public-sector-accounting-in-france). The following pages are available only if the following conditions are met:
+**Note** For information about French regulatory options, see [Public sector accounting in France](public-sector-accounting-france.md). The following pages are available only if the following conditions are met:
 
 -   The **Public sector** configuration key is selected.
 -   The **French regulatory** configuration subkey is selected.
@@ -67,11 +70,6 @@ Certification type Confirming PO codes Purchase order line amounts
 <a name="see-also"></a>See also
 --------
 
-[Public sector functionality](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/public-sector-functionality)
-
-
-
-
-<!--HONumber=Feb17_HO3-->
+[Public sector functionality](public-sector-functionality.md)
 
 

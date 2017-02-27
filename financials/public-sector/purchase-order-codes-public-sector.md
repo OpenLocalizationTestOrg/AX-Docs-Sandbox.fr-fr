@@ -1,25 +1,28 @@
 ---
-title: Purchase order codes in the public sector | Microsoft Docs
+title: Purchase order codes in the public sector
 description: This article provides information about the codes and special messages that can be used with confirming purchase orders. A confirming purchase order bypasses the typical purchasing process.
 author: rschloma
 manager: AnnBe
-ms.date: 2015-12-13 05:21:09
+ms.date: 2015-12-13 05 - 21 - 09
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
-keywords: ConfirmingPOCodes, PurchTableListPage
+ms.search.form: ConfirmingPOCodes, PurchTableListPage
 audience: Application User
 ms.reviewer: rschloma
-ms.suite: Released- Dynamics AX 7.0.0
+ms.search.scope: AX 7.0.0, Operations
 ms.custom: 27291
-ms.assetid: 7a98189b-1145-40bd-bce1-940e92bac89a
-ms.region: Global
-ms.industry: Public sector
+ms.assetid: 65032886-4dc6-4411-98c8-8969287fd7df
+ms.search.region: Global
+ms.search.industry: Public sector
 ms.author: brpotter
+ms.dyn365.ops.intro: 01-02-2016
+ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 744ac447b01dee241043ba27e3b1ffdcb0022a1b
-ms.openlocfilehash: 4fa456ff4f644da8498c9f0dc7d3a905b2e5e539
+ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
+ms.openlocfilehash: ff8b869b1ca6babae125f13bfdc49c8d5b3fda9c
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -42,10 +45,5 @@ This article describes the purchase order codes functionality available for the 
 [Accounts payable in the public sector](https://ax.help.dynamics.com/en/wiki/Accounts-payable-in-the-public-sector/)
 
 [Procurement and sourcing in the public sector](https://ax.help.dynamics.com/en/wiki/Procurement-and-sourcing-in-the-public-sector/)
-
-
-
-
-<!--HONumber=Feb17_HO3-->
 
 

@@ -1,25 +1,28 @@
 ---
-title: Public sector home page | Microsoft Docs
+title: Public sector home page
 description: Microsoft Dynamics 365 for Operations enable business processes that are common to both the public and private sectors, such as budgeting, purchasing, accounts payable, and accounts receivable tasks.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-08 15:26:48
+ms.date: 2015-12-08 15 - 26 - 48
 ms.topic: index-page
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
-keywords: SysConfiguration
+ms.search.form: SysConfiguration
 audience: Application User
 ms.reviewer: twheeloc
-ms.suite: Released- Dynamics AX 7.0.0
+ms.search.scope: AX 7.0.0, Operations
 ms.custom: 20691
-ms.assetid: aa2f8c1d-e72c-4026-b748-2f2c95f1526b
-ms.region: Global
-ms.industry: Public sector
+ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
+ms.search.region: Global
+ms.search.industry: Public sector
 ms.author: twheeloc
+ms.dyn365.ops.intro: 01-02-2016
+ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 744ac447b01dee241043ba27e3b1ffdcb0022a1b
-ms.openlocfilehash: a8811e9e871d62481dc824e065e435ea88c108cc
+ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
+ms.openlocfilehash: 53b4a845c8b01d8ef4e46b020247cf1a1d8b77e7
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -38,14 +41,14 @@ Use the Public sector functionality to meet the rules, regulations, and reportin
 
  For more information, see the following topics:
 
--   [Planning for Public sector functionality](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/planning-for-public-sector-functionality)
--   [Accounts payable in the Public sector](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/accounts-payable-in-the-public-sector)
--   [Accounts receivable in the Public sector](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/accounts-receivable-in-the-public-sector)
--   [Budgeting in the Public sector](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/budgeting-in-the-public-sector)
--   [Fixed assets in the Public sector](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/fixed-assets-in-the-public-sector)
--   [French regulatory features](https://docs.microsoft.com/en-us/dynamics365/operations/financials/localizations/europe/public-sector-accounting-in-france)\*
--   [General ledger in the Public sector](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/general-ledger-in-the-public-sector)
--   [Procurement and sourcing in the Public sector](https://docs.microsoft.com/en-us/dynamics365/operations/financials/public-sector/procurement-and-sourcing-in-the-public-sector)
+-   [Planning for Public sector functionality](plan-public-sector-functionality.md)
+-   [Accounts payable in the Public sector](accounts-payable-public-sector.md)
+-   [Accounts receivable in the Public sector](accounts-receivable-public-sector.md)
+-   [Budgeting in the Public sector](budgeting-public-sector.md)
+-   [Fixed assets in the Public sector](fixed-asset-public-sector.md)
+-   [French regulatory features](public-sector-accounting-france.md)\*
+-   [General ledger in the Public sector](general-ledger-public-sector.md)
+-   [Procurement and sourcing in the Public sector](procurement-sourcing-public-sector.md)
 -   [Security roles in the Public sector](http://ax.help.dynamics.com/en/wiki/security-roles-in-the-public-sector-2/)
 
 \* Applicable only if your organization is in France.
@@ -71,10 +74,5 @@ The following table provides information about how this configuration key relate
 --------
 
 [Planning for public sector functionality](https://ax.help.dynamics.com/en/wiki/Planning-for-public-sector-functionality)
-
-
-
-
-<!--HONumber=Feb17_HO3-->
 
 

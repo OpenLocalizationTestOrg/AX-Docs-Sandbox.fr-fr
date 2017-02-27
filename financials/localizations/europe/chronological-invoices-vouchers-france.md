@@ -1,24 +1,26 @@
 ---
-title: Chronological invoice and voucher numbers for France | Microsoft Docs
+title: Chronological invoice and voucher numbers for France
 description: This topic explains how to set up and use chronological numbers for invoices and vouchers in Accounts receivable for legal entities in France.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-12-19 16:05:52
+ms.date: 2016-12-19 16 - 05 - 52
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
-keywords: CustParameters, NumberSequenceGroup
+ms.search.form: CustParameters, NumberSequenceGroup
 audience: Application User
-ms.reviewer: 81
-ms.suite: Released- Dynamics 365 for Operations version 1611
+ms.search.scope: Operations
 ms.custom: 264514
-ms.assetid: f3712d16-f1d0-4f52-8f88-4735c450cc5f
-ms.region: France
+ms.assetid: d1fce1dc-2186-443c-9b4d-b6f64236bc3a
+ms.search.region: France
 ms.author: ilyako
+ms.dyn365.ops.intro: 01-11-2016
+ms.dyn365.ops.version: Version 1611
 translationtype: Human Translation
-ms.sourcegitcommit: d331960307ba214de4382feac7941aa5065c523d
-ms.openlocfilehash: 973c1191d727e6797975ef5d0a62f8d2dd7d8ce4
+ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
+ms.openlocfilehash: b3bc2688c83db72454e7a92a11c726aadd3afdd0
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -76,10 +78,5 @@ If different customers use different patterns for numbering, you must set up chr
 
 ## <a name="invoice-posting"></a>Invoice posting
 When you post an invoice or a credit note, the appropriate number sequence is used to generate a number. This number sequence is selected based on the valid period that contains the invoice date. Customer-specific chronological numbering has higher priority than chronological numbering.
-
-
-
-
-<!--HONumber=Feb17_HO3-->
 
 

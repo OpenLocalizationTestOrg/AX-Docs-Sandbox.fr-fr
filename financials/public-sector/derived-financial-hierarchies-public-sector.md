@@ -1,25 +1,28 @@
 ---
-title: Derived financial hierarchies in the public sector | Microsoft Docs
+title: Derived financial hierarchies in the public sector
 description: This article describes the derived financial hierarchies functionality that is available for the public sector.
 author: rschloma
 manager: AnnBe
-ms.date: 2015-12-08 18:59:20
+ms.date: 2015-12-08 18 - 59 - 20
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
-keywords: EcoResCategory, EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyRole, LedgerDerivedFinHierarchies, LedgerDerivedFinHierarchyFilterResults, LedgerDerivedFinHierarchyLegalEntities
+ms.search.form: EcoResCategory, EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyRole, LedgerDerivedFinHierarchies, LedgerDerivedFinHierarchyFilterResults, LedgerDerivedFinHierarchyLegalEntities
 audience: Application User
 ms.reviewer: rschloma
-ms.suite: Released- Dynamics AX 7.0.0
+ms.search.scope: AX 7.0.0, Operations
 ms.custom: 20911
-ms.assetid: aba2f2ae-f666-4b29-a672-b2a18f40a1ce
-ms.region: Global
-ms.industry: Public sector
+ms.assetid: a1b30d2a-a370-402a-b3bd-d562adca55f0
+ms.search.region: Global
+ms.search.industry: Public sector
 ms.author: brpotter
+ms.dyn365.ops.intro: 01-02-2016
+ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 744ac447b01dee241043ba27e3b1ffdcb0022a1b
-ms.openlocfilehash: f75860ade1efa82c154a16f8684a557f321eeb96
+ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
+ms.openlocfilehash: 9e268d82e26f94cf58ffb8c2b2d7eb375fad5cc8
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -42,13 +45,8 @@ An organization has an employee wellness program and an employee education progr
 <a name="see-also"></a>See also
 --------
 
-[General ledger](https://docs.microsoft.com/en-us/dynamics365/operations/financials/general-ledger/general-ledger)
+[General ledger](general-ledger.md)
 
 [General ledger in the public sector](https://ax.help.dynamics.com/en/?post_type=incsub_wiki&p=164121)
-
-
-
-
-<!--HONumber=Feb17_HO3-->
 
 

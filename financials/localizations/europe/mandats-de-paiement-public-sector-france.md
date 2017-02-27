@@ -1,24 +1,27 @@
 ---
-title: Mandats de paiement in the public sector in France | Microsoft Docs
+title: Mandats de paiement in the public sector in France
 description: The mandat de paiement is used by the director to notify the accountant that the organization is obligated to pay a specific amount to another entity, and to authorize the accountant to pay that amount. The mandat maintains the strict separation that is required between the operational role of the director and the accounting role of the accountant.
 author: rschloma
 manager: AnnBe
-ms.date: 2015-12-13 05:19:51
+ms.date: 2015-12-13 05 - 19 - 51
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.suite: Released- Dynamics AX 7.0.0
+ms.search.scope: AX 7.0.0, Operations
 ms.custom: 27231
-ms.assetid: 6427e630-4d68-46a9-a009-72e0a838a972
-ms.region: France
-ms.industry: Public sector
+ms.assetid: e63d4d9d-27d4-42c9-ad87-66040b8680db
+ms.search.region: France
+ms.search.industry: Public sector
 ms.author: brpotter
+ms.dyn365.ops.intro: 01-02-2016
+ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 744ac447b01dee241043ba27e3b1ffdcb0022a1b
-ms.openlocfilehash: 16ebf3b9a78d4a6892b73f0d9c743ba617d3519f
+ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
+ms.openlocfilehash: 57016ef7fe3a5ce9df37a8ce3cf2b14a5afa0994
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -65,10 +68,5 @@ To open the database inquiry page on the **Maintain mandats de paiement** page, 
     | Mandat | Mandat        | Accountant acceptance status | "Rejected" |
 
 
-
-
-
-
-<!--HONumber=Feb17_HO3-->
 
 
