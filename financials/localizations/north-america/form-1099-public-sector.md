@@ -22,7 +22,7 @@ ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
 ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
 ms.openlocfilehash: cec277da8e8a50f135f8b0a031ae88c6e6c3f7aa
-ms.lasthandoff: 02/22/2017
+ms.lasthandoff: 03/08/2017
 
 
 ---
