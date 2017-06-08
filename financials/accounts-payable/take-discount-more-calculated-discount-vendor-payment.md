@@ -3,30 +3,34 @@ title: Take a discount that is more than the calculated discount for a vendor pa
 description: This article walks you through a scenario where a cash discount is taken for an amount that is more than the discount that was originally available on the invoice. This scenario might occur if an organization comes to an agreement with the vendor to pay a smaller amount on the invoice.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-02 23 - 20 - 58
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 14281
 ms.assetid: 7f0a4197-95dd-4969-ade9-154815cf659e
 ms.search.region: Global
 ms.author: kweekley
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 14df8f412a095bfafed8e7e2cca5aa5e74502df1
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 08d7c4981aba7e7c092a6f21d3b63635e76437bf
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="take-a-discount-that-is-more-than-the-calculated-discount-for-a-vendor-payment"></a>Take a discount that is more than the calculated discount for a vendor payment
+
+[!include[banner](../includes/banner.md)]
+
 
 This article walks you through a scenario where a cash discount is taken for an amount that is more than the discount that was originally available on the invoice. This scenario might occur if an organization comes to an agreement with the vendor to pay a smaller amount on the invoice. 
 
@@ -45,5 +49,7 @@ Discount information appears at the bottom of the **Settle transactions** page.
 | Cash discount amount to take | 60.00     |
 
 April posts the payment journal. The invoice is fully settled by using a payment of 940.00 and a discount of 60.00.
+
+
 
 

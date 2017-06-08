@@ -3,34 +3,38 @@ title: Settle a partial customer payment that has multiple discount periods
 description: This article shows how partial customer payments are settled when there are multiple discount periods.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-02 23 - 29 - 40
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 14471
 ms.assetid: b633a7c4-c18d-42e7-91cc-adcdc8a3ba98
 ms.search.region: Global
 ms.author: kweekley
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 5d6a318f0069ef56cd5cfad63b72ed56ba913e0c
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 08f87cbb37f8b52ec5554c8ab940d96a77c53d20
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Settle a partial customer payment that has multiple discount periods
 
+[!include[banner](../includes/banner.md)]
+
+
 This article shows how partial customer payments are settled when there are multiple discount periods.
 
-Fabrikam offers customer 4031 two cash discount periods. The customer receives a 2-percent cash discount if the invoice is paid in five days and a 1-percent cash discount if the invoice is paid in 14 days. Fabrikam also offers cash discounts on partial payments. The [settlement parameters](http://ax.help.dynamics.com/en/?p=246884) are located on the **Accounts receivable parameters** page.
+Fabrikam offers customer 4031 two cash discount periods. The customer receives a 2-percent cash discount if the invoice is paid in five days and a 1-percent cash discount if the invoice is paid in 14 days. Fabrikam also offers cash discounts on partial payments. The settlement parameters are located on the **Accounts receivable parameters** page.
 
 ## <a name="invoice"></a>Invoice
 On June 25, Arnie enters and posts an invoice for 1,000.00 for customer 4031. When he reviews the cash discounts for this invoice, Arnie sees that customer 4031 receives a 20.00 discount if the invoice is paid by June 30. If the invoice is paid by July 9, the customer receives a 10.00 discount.
@@ -92,6 +96,8 @@ The invoice balance is now 0.00. Arnie views the information on the **Customer t
 | DISC-10030 |  Cash discount   | 6/28/2015 |         |                                      | 6.00                                  | 0.00    | USD      |
 | ARP-10031  |  Payment         | 7/8/2015  |         |                                      | 693.00                                | 0.00    | USD      |
 | DISC-1031  |  Cash discount   | 7/8/2015  |         |                                      | 7.00                                  | 0.00    | USD      |
+
+
 
 
 

@@ -3,30 +3,34 @@ title: Three-way matching policies
 description: This article provides examples of three-way matching.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-09-10 15 - 16 - 01
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
 ms.author: abruer
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: dea2e82ea64052b815ff906500ea1112eb424f0c
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: b9f66a9a907cf01046c78677a3f1d55f112fa8c7
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="three-way-matching-policies"></a>Three-way matching policies
+
+[!include[banner](../includes/banner.md)]
+
 
 This article provides examples of three-way matching.
 
@@ -35,7 +39,10 @@ This article provides examples of three-way matching.
 
 **Summary:** Ken is the controller at the corporate headquarters of a legal entity named Fabrikam. Ken decides that all vendor invoices that are based on purchase orders should be matched with purchase order lines (two-way matching). For purchases of items that will be used as fixed assets, invoices should be matched with both the purchase order lines and the product receipt lines (three-way matching).
 
-Fabrikam operates with multiple legal entities and employees in all parts of the world. As the volume of transactions increases, discrepancies between receipts and invoices are also increasing. This results in assets being written off. Invoices from vendors are being paid, but the process does not include identifying discrepancies when fewer items are received than were ordered, or when items are not received at all. Spending also increases because employees still need tools and other materials to do their jobs. Ken wants to make sure that vendors are shipping the products that are ordered and the items are being received by Fabrikam employees. Therefore, Ken requires two-way and three-way matching for all legal entities in the organization. Invoice matching helps make sure that problems with items that have disappeared or not been received can be tracked and resolved. The invoice matching policies in this example help people in the following roles meet these goals:
+Fabrikam operates with multiple legal entities and employees in all parts of the world. As the volume of transactions increases, discrepancies between receipts and invoices are also increasing. This results in assets being written off. Invoices from vendors are being paid, but the process does not include identifying discrepancies when fewer items are received than were ordered, or when items are not received at all. Spending also increases because employees still need tools and other materials to do their jobs. Ken wants to make sure that vendors are shipping the products that are ordered and the items are being received by Fabrikam employees. Therefore, Ken requires two-way and three-way matching for all legal entities in the organization. Invoice matching helps make sure that problems with items that have disappeared or not been received can be tracked and resolved. 
+
+The invoice matching policies in this example help people in the following roles meet these goals:
+
 -   Ken is the controller for the Fabrikam enterprise. He can help the people in his organization to identify and correct problems with ordering, receiving, and paying for items (goods and services) from vendors.
 -   Phyllis and April are accounting managers in the accounts payable department for the United States division of Fabrikam. They can enforce corporate policy and make sure that invoices are paid only after the invoices are matched with the purchase order and receipts of goods and services, where applicable.
 -   Tony is the production manager for the United States division of Fabrikam. He and other production personnel can make sure that items are received as they were ordered from vendors, and are accounted for so that the personnel have what they must have in order to perform their jobs.
@@ -80,8 +87,12 @@ In Microsoft Dynamics 365 for Operations, the invoice line includes the followin
 
 Because this line passes the invoice matching process, the invoice can be posted.
 
-## <a name="example-threeway-matching-for-item-and-vendor-combinations"></a>Example: Threeway matching for item and vendor combinations
-Summary: Ken is the controller at the corporate headquarters of a legal entity named Fabrikam. Ken decides that all invoices that are based on purchase orders should be matched with purchase order lines (two-way matching). Cassie is the bookkeeper at the Malaysia division of Fabrikam. She specifies that selected items that are ordered from certain vendors in Malaysia should be matched with both the purchase order lines and product receipt lines (three-way matching). She can also override the matching policy to a higher level of matching for specific purchase orders. The volume and amounts are small, and there have been problems with delivery from some vendors in Malaysia. For these reasons, Cassie sets the level of control for certain item and vendor combinations that are procured in Malaysia to three-way matching. The invoice matching policies in this example help people in the following roles meet these goals:
+## <a name="example-three-way-matching-for-item-and-vendor-combinations"></a>Example: Three-way matching for item and vendor combinations
+Summary: Ken is the controller at the corporate headquarters of a legal entity named Fabrikam. Ken decides that all invoices that are based on purchase orders should be matched with purchase order lines (two-way matching). Cassie is the bookkeeper at the Malaysia division of Fabrikam. She specifies that selected items that are ordered from certain vendors in Malaysia should be matched with both the purchase order lines and product receipt lines (three-way matching). She can also override the matching policy to a higher level of matching for specific purchase orders. 
+
+The volume and amounts are small, and there have been problems with delivery from some vendors in Malaysia. For these reasons, Cassie sets the level of control for certain item and vendor combinations that are procured in Malaysia to three-way matching. 
+
+The invoice matching policies in this example help people in the following roles meet these goals:
 -   Ken is the controller for the Fabrikam enterprise. He can help the people in his organization to identify and correct problems with ordering, receiving, and paying for items (goods and services) from vendors.
 -   Cassie is the bookkeeper for the Malaysia division of Fabrikam. She can enforce corporate policy and make sure that invoices are paid only after they are matched with purchase order lines and product receipts that represent the receipt of goods and services. She can also increase the level of control to three-way matching for specific items to control operational costs.
 
@@ -133,10 +144,8 @@ Note the following items:
 If approval is required for invoices to be posted with invoice matching discrepancies, the Approve posting with matching discrepancies toggle on the Invoice matching details page must be selected before the invoice can be posted with price matching errors and quantity matching errors. If approval is not required, invoice processing can continue if there are no other posting errors.
 
 
+For more information, see [Accounts payable invoice matching](accounts-payable-invoice-matching.md).
 
-<a name="see-also"></a>See also
---------
 
-[Accounts payable invoice matching](accounts-payable-invoice-matching.md)
 
 

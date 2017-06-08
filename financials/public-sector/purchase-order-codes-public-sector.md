@@ -1,37 +1,45 @@
 ---
 title: Purchase order codes in the public sector
 description: This article provides information about the codes and special messages that can be used with confirming purchase orders. A confirming purchase order bypasses the typical purchasing process.
-author: rschloma
+author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-13 05 - 21 - 09
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ConfirmingPOCodes, PurchTableListPage
 audience: Application User
-ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 27291
 ms.assetid: 65032886-4dc6-4411-98c8-8969287fd7df
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: ff8b869b1ca6babae125f13bfdc49c8d5b3fda9c
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 4b5e773645f5446b02c627a1d333b359dd0fe808
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="purchase-order-codes-in-the-public-sector"></a>Purchase order codes in the public sector
 
+[!include[banner](../includes/banner.md)]
+
+
 This article provides information about the codes and special messages that can be used with confirming purchase orders. A confirming purchase order bypasses the typical purchasing process.
 
-This article describes the purchase order codes functionality available for the public sector. You must first determine what your codes and messages will be. You can use the **Confirming PO codes** page to create codes and special messages that can be used with confirming purchase orders (POs). A confirming purchase order bypasses the typical purchasing process. For example, you must authorize an unplanned order by using a PO number at the time of a purchase, instead of by using a document that is provided before the item is required. After you set up the codes, you can assign the codes to purchase orders on the **All purchase orders** page. If you assign a confirming PO code to a purchase order on the **Unplanned purchases** FastTab (for example, when you create a new purchase order), the message that is associated with the confirming PO code will be printed at the top of the purchase order.
+This article describes the purchase order codes functionality available for the public sector. You must first determine what your codes and messages will be. You can use the **Confirming PO codes** page to create codes and special messages that can be used with confirming purchase orders (POs). A confirming purchase order bypasses the typical purchasing process. For example, you must authorize an unplanned order by using a PO number at the time of a purchase, instead of by using a document that is provided before the item is required. 
+
+After you set up the codes, you can assign the codes to purchase orders on the **All purchase orders** page. 
+
+If you assign a confirming PO code to a purchase order on the **Unplanned purchases** FastTab (for example, when you create a new purchase order), the message that is associated with the confirming PO code will be printed at the top of the purchase order.
 
 ## <a name="tips"></a>Tips
 -   If you change a confirming PO code that was already assigned to a purchase order, the new code will replace the old code. This change affects both new purchase orders and purchase orders that have been posted. For example, a purchase order had a confirming PO code of **Confirming** when it was posted, but that code is later changed to **Emergency**. In this case, every purchase order that had the **Confirming** code will now have the **Emergency** code instead.
@@ -39,11 +47,6 @@ This article describes the purchase order codes functionality available for the 
 
  
 
-<a name="see-also"></a>See also
---------
 
-[Accounts payable in the public sector](https://ax.help.dynamics.com/en/wiki/Accounts-payable-in-the-public-sector/)
-
-[Procurement and sourcing in the public sector](https://ax.help.dynamics.com/en/wiki/Procurement-and-sourcing-in-the-public-sector/)
 
 

@@ -3,29 +3,33 @@ title: Shift and cash drawer management
 description: This article explains how to set up and use the two types of retail point of sale (POS) shifts -  shared and stand-alone. Shared shifts can be used by multiple users in multiple places, whereas stand-alone shifts can be used by only one worker at a time.
 author: josaw1
 manager: AnnBe
-ms.date: 2016-07-28 19 - 03 - 49
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 5f0bfe59e96f27bc1f4586ce03b4a6d7b309e047
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: e49d7d931b0796e4d62065793e7e79745c816682
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="shift-and-cash-drawer-management"></a>Shift and cash drawer management
+
+[!include[banner](includes/banner.md)]
+
 
 This article explains how to set up and use the two types of retail point of sale (POS) shifts -  shared and stand-alone. Shared shifts can be used by multiple users in multiple places, whereas stand-alone shifts can be used by only one worker at a time.
 
@@ -93,6 +97,8 @@ A shared shift is used in an environment where multiple cashiers share a cash dr
 8.  After you’ve removed the cash from the last cash drawer, count all the cash from all the cash drawers.
 9.  Use the **Declare tender** operation to declare the total amount of cash from all the cash drawers that are included in the shared shift.
 10. Use the **Close shift** operation to close the shared shift.
+
+
 
 
 

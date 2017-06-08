@@ -3,37 +3,43 @@ title: Take a cash discount outside the cash discount period
 description: This article provides two scenarios that show how a cash discount can be taken even if the payment is made outside the cash discount period.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-02 23 - 21 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 14301
 ms.assetid: bad10b7f-e550-4742-9261-8a094c9c624d
 ms.search.region: Global
 ms.author: kweekley
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 93c50f9e3207aa424efc09e71247bf2138431860
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 15da62064521ec614764c42b57a20d32b110587a
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Take a cash discount outside the cash discount period
 
+[!include[banner](../includes/banner.md)]
+
+
 This article provides two scenarios that show how a cash discount can be taken even if the payment is made outside the cash discount period.
 
 On June 28, April creates an invoice for 2,000.00 for vendor 3052. The invoice has a cash discount of 1 percent if the invoice is paid in 14 days.
 
 ## <a name="use-cash-discount-option--always"></a>Use cash discount option = Always
-April creates a payment on July 1, which is after the discount date. April opens the **Settle transactions** page to view the transactions that can be settled. April marks the invoice for payment. No cash discount is taken, because the payment is after the discount date. However, the vendor has given April approval to take the cash discount anyway. Therefore, April changes the value in the **Use cash discount** field to **Always**.
+April creates a payment on July 1, which is after the discount date. April opens the **Settle transactions** page to view the transactions that can be settled. 
+
+April marks the invoice for payment. No cash discount is taken, because the payment is after the discount date. However, the vendor has given April approval to take the cash discount anyway. Therefore, April changes the value in the **Use cash discount** field to **Always**.
 
 | Mark     | Use cash discount | Voucher   | Account | Cash discount date | Due date  | Invoice | Amount in transaction currency | Currency | Amount to settle |
 |----------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
@@ -83,6 +89,8 @@ Discount information appears at the bottom of the **Settle open transactions** p
 | Use cash discount            | Normal    |
 | Cash discount taken          | 0.00      |
 | Cash discount amount to take | -5.05     |
+
+
 
 
 

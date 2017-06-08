@@ -3,34 +3,38 @@ title: Settle a partial vendor payment before the discount date with a final pay
 description: This article walks you through a scenario where multiple partial payments are made, some within the cash discount period and others outside the cash discount period.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-02 23 - 27 - 20
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 14411
 ms.assetid: 302ad6ae-28ee-4899-9f6b-f74424a5f50c
 ms.search.region: Global
 ms.author: kweekley
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 46eae6c1774bbd4b4d33c395458c00969669edb8
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 1a454a487a0879234eee76a39b2f095d1d80ea1e
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Settle a partial vendor payment before the discount date with a final payment after the discount date
 
+[!include[banner](../includes/banner.md)]
+
+
 This article walks you through a scenario where multiple partial payments are made, some within the cash discount period and others outside the cash discount period.
 
-Fabrikam purchases goods from vendor 3057. Fabrikam receives a cash discount of 1 percent if the invoice is paid in 14 days. Invoices must be paid in 30 days. The vendor also lets Fabrikam take cash discounts on partial payments. The [settlement parameters](http://ax.help.dynamics.com/en/?p=246884) are located on the **Accounts payable parameters** page.
+Fabrikam purchases goods from vendor 3057. Fabrikam receives a cash discount of 1 percent if the invoice is paid in 14 days. Invoices must be paid in 30 days. The vendor also lets Fabrikam take cash discounts on partial payments. The settlement parameters are located on the **Accounts payable parameters** page.
 
 ## <a name="invoice-on-june-25"></a>Invoice on June 25
 On June 25, April enters and posts an invoice for 1,000.00 for vendor 3057. April can view this transaction on the **Vendor transactions** page.
@@ -116,6 +120,8 @@ April then posts the payment. When she opens the **Vendor transactions** page, s
 | DISC-10020 | Cash discount    | 7/1/2015  |         | 3.00                                 |                                       | 0.00    | USD      |
 | APP-10021  | Payment          | 7/15/2015 |         | 693.00                               |                                       | 0.00    | USD      |
 | DISC-10021 | Cash discount    | 7/15/2015 |         | 7.00                                 |                                       | 0.00    | USD      |
+
+
 
 
 

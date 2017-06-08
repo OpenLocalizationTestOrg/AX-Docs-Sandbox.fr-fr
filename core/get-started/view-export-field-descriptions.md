@@ -3,10 +3,10 @@ title: View and export field descriptions
 description: This article describes how to view field descriptions and how to use the Field descriptions page to export descriptions.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-10-30 12 - 52 - 24
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
@@ -15,24 +15,34 @@ ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
 ms.author: yuyus
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 15fc58d21aeedfc043b237287a3aaf8effa89bfa
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: cd84c03baa4f7a9d38e380c37ed2020ee3387954
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>View and export field descriptions
 
+[!include[banner](../includes/banner.md)]
+
+
 This article describes how to view field descriptions and how to use the Field descriptions page to export descriptions.
 
-Microsoft Dynamics 365 for Operations has descriptions for some of the more complex fields. These descriptions appear when you hover over a field. You can also view and export descriptions on the **Field descriptions** page. Not all pages have field descriptions. We want to provide descriptions only for the more complex fields, not where the use of the field is obvious. Therefore, some pages don't have any field descriptions, some pages have a few descriptions, and some of the more complex pages, such as many of the parameters pages, have many descriptions. If you have access to the Dynamics 365 for Operations development environment, you can add new field descriptions and customize existing descriptions. For example, you can add company-specific information to a field description. For more information, see [Customize field help](customize-field-help.md).
+Microsoft Dynamics 365 for Operations has descriptions for some of the more complex fields. These descriptions appear when you hover over a field. You can also view and export descriptions on the **Field descriptions** page. 
+
+Not all pages have field descriptions. We want to provide descriptions only for the more complex fields, not where the use of the field is obvious. Therefore, some pages don't have any field descriptions, some pages have a few descriptions, and some of the more complex pages, such as many of the parameters pages, have many descriptions. 
+
+If you have access to the Dynamics 365 for Operations development environment, you can add new field descriptions and customize existing descriptions. For example, you can add company-specific information to a field description. For more information, see [Customize field help](/dynamics365/operations/dev-itpro/user-interface/customize-field-help).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>See field descriptions in the user interface
-You can view field descriptions by hovering over a field. If no description is available, you see the field name when you hover over the field. (Note: In version 7.0.0, field descriptions can be viewed only on the **Field descriptions** page.) The following illustration shows the field description that appears when you hover over the **Lock items during count** field. [![Example of a field description](./media/field-description.png)](./media/field-description.png)
+You can view field descriptions by hovering over a field. If no description is available, you see the field name when you hover over the field. (Note: In version 7.0.0, field descriptions can be viewed only on the **Field descriptions** page.) The following illustration shows the field description that appears when you hover over the **Lock items during count** field. 
+
+[![Example of a field description](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>Use the Field descriptions page to view and export field help
 The **Field descriptions** page lets you view and export field descriptions. You can see the descriptions that are available for one page at a time.
@@ -43,7 +53,11 @@ To view the descriptions for a page, follow this step.
 
 -   In the **Select a page** field, type the name of the page. Alternatively, click the arrow to open a list of all the pages, and then browse or filter the list.
 
-You can use either the name of the page that is shown in the user interface (UI) (for example, **Customers**) or the code name (AOT name) that's available when you right-click a page (for example, **CustTable**). For information about the various ways to filter the list of pages, see the "Searching for a page" section later in this article. If you set the **Include fields without a description** option to **Yes**, all the fields on the page are shown, even if they don't have a field description.
+You can use either the name of the page that is shown in the user interface (UI) (for example, **Customers**) or the code name (AOT name) that's available when you right-click a page (for example, **CustTable**). 
+
+For information about the various ways to filter the list of pages, see the "Searching for a page" section later in this article. 
+
+If you set the **Include fields without a description** option to **Yes**, all the fields on the page are shown, even if they don't have a field description.
 
 ### <a name="export-the-descriptions-for-a-page"></a>Export the descriptions for a page
 
@@ -70,11 +84,11 @@ This section provides information to help you troubleshoot issues that you might
 
 ### <a name="i-cant-find-a-field-description"></a>I can't find a field description
 
-We’re in the process of adding descriptions for the more complex fields. If you require help for a particular field, let us know by adding a comment for this wiki article.
+We’re in the process of adding descriptions for the more complex fields. If you require help for a particular field, let us know by adding a comment for this topic.
 
 ### <a name="the-field-description-isnt-helpful"></a>The field description isn't helpful
 
-Let us know by adding a comment for this wiki article. If you can, describe the additional information that you require.
+Let us know by adding a comment for this topic. If you can, describe the additional information that you require.
 
 ### <a name="i-cant-find-a-field-on-the-field-descriptions-page"></a>I can't find a field on the Field descriptions page
 
@@ -87,6 +101,9 @@ For information about the various way to find pages, see the "Searching for page
 <a name="see-also"></a>See also
 --------
 
-[Customize field help](customize-field-help.md)
+[Customize field help](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+
+
+
 
 

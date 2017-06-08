@@ -3,28 +3,32 @@ title: Set up and generate positive pay files
 description: This article explains how to set up positive pay and generate positive pay files.
 author: twheeloc
 manager: AnnBe
-ms.date: 2016-05-23 15 - 48 - 30
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 88433
 ms.assetid: 73f3dcf6-040a-44ad-9512-7b3e0d17a571
 ms.search.region: Global
 ms.author: abruer
-ms.dyn365.ops.intro: 01-05-2016
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 0513853cdeb39ad8c250a328f9ba7a2cde798b49
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: f82ed69aaaf4d3345ef4e74a338124465dcf2358
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="set-up-and-generate-positive-pay-files"></a>Set up and generate positive pay files
+
+[!include[banner](../includes/banner.md)]
+
 
 This article explains how to set up positive pay and generate positive pay files. 
 
@@ -156,5 +160,7 @@ After the checks that are listed in a positive pay file have been paid, you rece
 
 ## <a name="recall-a-positive-pay-file"></a>Recall a positive pay file
 If you must change a positive pay file, you can recall it. On the **Positive pay file summary** page, select a positive pay file that has a status of **Created**, and then select the **Recall** action. For each check in the positive pay file, the field that indicates whether that check has been included in a positive pay file is reset. You can then create a new positive pay file that includes the check that was recalled.
+
+
 
 

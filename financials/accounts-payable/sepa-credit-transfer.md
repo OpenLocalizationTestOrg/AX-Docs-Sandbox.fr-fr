@@ -1,38 +1,41 @@
 ---
 title: SEPA credit transfer overview
 description: This article provides general information about ISO 20022 credit transfers, which include Single Euro Payments Area (SEPA) credit transfers and any other electronic payments for vendors. A SEPA credit transfer is a specific type of payment in euros from one company or individual to another company or individual. The topic also explains how to set up and transmit a credit transfer payment file.
-author: ShylaThompson
+author: twheeloc
 manager: AnnBe
-ms.date: 2015-10-28 21 - 37 - 11
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 11124
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: d919fd090d8797ec7ef34128c7390027cd11a69c
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 8f1a220babc333fe2091e9286afc565ebeecf036
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="sepa-credit-transfer-overview"></a>SEPA credit transfer overview
 
+[!include[banner](../includes/banner.md)]
+
+
 This article provides general information about ISO 20022 credit transfers, which include Single Euro Payments Area (SEPA) credit transfers and any other electronic payments for vendors. A SEPA credit transfer is a specific type of payment in euros from one company or individual to another company or individual. The topic also explains how to set up and transmit a credit transfer payment file.
 
-<a name="what-is-a-credit-transfer-message"></a>What is a credit transfer message?
-----------------------------------
-
-The credit transfer message is a request that an initiating party (your company) sends to move funds from its own account to a creditor. There are many country/region-specific and bank-specific implementations of credit transfer messages. Some of them are used within one country/region, and some are becoming standards. One well-established global standard is ISO 20022 and its initiation messages, such as Credit transfer. The following illustration shows the relations and coverage for selected credit transfer messages. \[caption id="attachment\_1282374" align="alignnone" width="938"\][![Credit tansfer](./media/credit-transfer.jpg)](./media/credit-transfer.jpg) Credit transfer messages\[/caption\] This topic describes how Microsoft Dynamics 365 for Operations implements credit transfers that are based on ISO 20022 credit transfers.
+## <a name="what-is-a-credit-transfer-message"></a>What is a credit transfer message?
+The credit transfer message is a request that an initiating party (your company) sends to move funds from its own account to a creditor. There are many country/region-specific and bank-specific implementations of credit transfer messages. Some of them are used within one country/region, and some are becoming standards. One well-established global standard is ISO 20022 and its initiation messages, such as Credit transfer. The following illustration shows the relations and coverage for selected credit transfer messages. 
+![Credit tansfer](./media/credit-transfer.jpg) Credit transfer messages\[/caption\] 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>What are ISO 20022 and SEPA payments?
 The Single Euro Payments Area (SEPA) is set up by the European Commission and dictates that all electronic payments are considered domestic, regardless of the country/region where the individual, business, or organization, and the bank are located. There is no difference between national payments and cross-border payments. The SEPA includes the 28 member states of the European Union (EU), and also Iceland, Liechtenstein, Norway, Switzerland, Monaco, and San Marino. The SEPA helps form a single market for payment transactions within the European Economic Area (EEA). Ultimately, the SEPA is expected to reduce the number of payment formats that banks, businesses, and individuals must work with. The European Commission established the legal foundation for SEPA payments through the Payment Services Directive (PSD). The European Payments Council (EPC) supports the SEPA through the following activities:
@@ -56,7 +59,7 @@ The credit transfer payment format for European countries is implemented by usin
 You should always go to the Shared asset library on Microsoft Dynamics Lifecycle services (LCS) and view the most up-to-date list of available files that have an asset type of **GER configuration**. The next section, "What do I have to set up?", provides a link to the topic that explains how to create an LCS repository to review available configurations and import selected configurations.
 
 ## <a name="what-do-i-have-to-set-up"></a>What do I have to set up?
--   Before you can create credit transfer files, at least one active credit transfer configuration must be imported into your ER configurations. For instructions, see [Download Electronic reporting configurations from Lifecycle Services](download-electronic-reporting-configuration-lcs.md).
+-   Before you can create credit transfer files, at least one active credit transfer configuration must be imported into your ER configurations. For instructions, see [Download Electronic reporting configurations from Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 -   When you configure Accounts payable methods of payment, select the **Generic electronic reporting** check box, and select the appropriate credit transfer format (for example, **ISO 20022 Credit transfer (AT)**) as an export format configuration.
 -   You must also set up the legal entity and bank account information in Dynamics 365 for Operations.
 -   Bank account numbers, IBANs, and sometimes SWIFT codes (BICs) or other IDs are required in order to create valid credit transfer payments. Therefore, you must set up them for the vendor bank account and the bank account for the organization that is requesting the transfer.
@@ -123,7 +126,6 @@ The International Bank Account Number (IBAN) and Bank Identifier Code (BIC) are 
 ## <a name="how-do-i-transmit-a-payment-file-to-the-bank"></a>How do I transmit a payment file to the bank?
 When you generate payments, the payment file is generated, and you're asked to save it from your web browser to any available location. The next step is to send the XML file to your bank. This process varies from bank to bank. Follow the instructions from your bank to submit the files to the bank for processing.
 
-<a name="see-also"></a>See also
---------
+
 
 

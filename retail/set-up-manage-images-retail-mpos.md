@@ -3,29 +3,33 @@ title: Set up and manage images for Retail Modern POS
 description: This article explains the steps that are involved in setting up and managing images for the various entities that appear in Retail Modern POS (MPOS).
 author: MargoC
 manager: AnnBe
-ms.date: 2016-02-24 14 - 58 - 41
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 52851
 ms.assetid: 5c21385e-64e0-4091-98fa-6a662eb33010
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: athinesh
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 8c6f907f9afec027c40ed994df2c1416a59c417f
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 06915686e1421742c2f1dd1ebbb02491f04431fd
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Set up and manage images for Retail Modern POS
+
+[!include[banner](includes/banner.md)]
+
 
 This article explains the steps that are involved in setting up and managing images for the various entities that appear in Retail Modern POS (MPOS).
 
@@ -149,5 +153,7 @@ The catalog, category, employee, and customer images that must be used in Offlin
 5.  Follow a similar process for other entities, such as Category, Employee, and Customer.
 
 [![offline2](./media/offline2.png)](./media/offline2.png)    
+
+
 
 

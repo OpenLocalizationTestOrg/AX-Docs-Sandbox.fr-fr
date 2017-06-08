@@ -3,28 +3,32 @@ title: Set up bills of exchange
 description: This topic describes the steps for setting up bills of exchange.
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-02-08 21 - 05 - 51
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations
+ms.search.scope: Operations, Core
 ms.custom: 269964
 ms.assetid: f2077165-da90-4359-ab12-e05717728dc7
 ms.search.region: global
 ms.author: abruer
-ms.dyn365.ops.intro: 01-11-2016
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: b8cda1869d4c352d7808753261174b60eee58332
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: f13a193692a2d0dc3ec1536923a85717e11544c5
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="set-up-bills-of-exchange"></a>Set up bills of exchange
+
+[!include[banner](../includes/banner.md)]
+
 
 This topic describes the steps for setting up bills of exchange.
 
@@ -75,6 +79,8 @@ Set up customers for bills of exchange
 --------------------------------------
 
 On the **Customers** page, for each customer who has agreed to pay by using a bill of exchange, you can set up a default method of payment for bills of exchange on the **Payment defaults** tab.
+
+
 
 
 

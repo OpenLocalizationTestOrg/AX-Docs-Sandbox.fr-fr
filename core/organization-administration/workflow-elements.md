@@ -3,10 +3,10 @@ title: Workflow elements
 description: This article describes the various elements that make up a workflow.
 author: sericks007
 manager: AnnBe
-ms.date: 2016-02-29 15 - 15 - 39
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -14,17 +14,21 @@ ms.custom: 56441
 ms.assetid: de740262-6ffd-42b9-a325-540eae5cec94
 ms.search.region: Global
 ms.author: tjvass
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: ce87c37a4bdd6dd37aec6eb15d4ea2ab6b29e827
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: a3a12080efcb138365c26981abd51222c51663ff
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="workflow-elements"></a>Workflow elements
+
+[!include[banner](../includes/banner.md)]
+
 
 This article describes the various elements that make up a workflow.
 
@@ -80,5 +84,7 @@ A *parallel activity* is a workflow element that includes two or more workflow b
 ### <a name="subworkflow"></a>Subworkflow
 
 A *subworkflow* is a workflow that runs in the context of another workflow.
+
+
 
 

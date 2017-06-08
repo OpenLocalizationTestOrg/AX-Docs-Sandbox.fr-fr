@@ -3,30 +3,34 @@ title: Settle a partial vendor payment that has multiple discount periods
 description: This article walks you through a scenario where multiple partial payments are made to a vendor that offers multiple cash discounts.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-02 23 - 20 - 28
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 14262
 ms.assetid: af95c48a-afd1-476c-978d-e34995100be4
 ms.search.region: Global
 ms.author: kweekley
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 8a67c786bea41da5119840fdd6451d6a13abdae6
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: b2f75266283e633438978757504782f395c54bed
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Settle a partial vendor payment that has multiple discount periods
+
+[!include[banner](../includes/banner.md)]
+
 
 This article walks you through a scenario where multiple partial payments are made to a vendor that offers multiple cash discounts. 
 
@@ -134,6 +138,8 @@ On July 20, April creates a final payment for 200.00. No discount is taken, beca
 | APP-10061  | 7/12/2015 |         | 495.00                               |                                       | 0.00    | USD      |
 | DISC-10061 | 7/12/2015 |         | 5.00                                 |                                       | 0.00    | USD      |
 | APP-10062  | 7/20/2015 |         | 200.00                               |                                       | 0.00    | USD      |
+
+
 
 
 

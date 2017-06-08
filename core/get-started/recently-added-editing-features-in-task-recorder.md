@@ -1,12 +1,12 @@
 ---
 title: Recently added editing features in task recorder
-description: If you use task recorder to create task guides, you can edit your files more efficiently using the functionality described in this wiki.
+description: If you use task recorder to create task guides, you can edit your files more efficiently using the functionality described in this topic.
 author: josaw1
 manager: AnnBe
-ms.date: 2017-01-09 19 - 16 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -15,19 +15,23 @@ ms.custom: 266464
 ms.assetid: b4640e67-4b92-4855-8041-1bfc71aadc47
 ms.search.region: global
 ms.author: josaw
-ms.dyn365.ops.intro: 01-08-2016
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 2b954c8271afc1b323609d6e7b142e657ba879db
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 272856c01074a352e3945f29e9cdf7655aaf22ba
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="recently-added-editing-features-in-task-recorder"></a>Recently added editing features in task recorder
 
-If you use task recorder to create task guides, you can edit your files more efficiently using the functionality described in this wiki.
+[!include[banner](../includes/banner.md)]
+
+
+If you use task recorder to create task guides, you can edit your files more efficiently using the functionality described in this topic.
 
 These features are available on the **Settings &gt; Task recorder &gt; Edit recording** menu.
 
@@ -40,7 +44,12 @@ You can now add a step anywhere in a task guide without playing back or re-recor
 
 1.  Select the step after which you want the new step to be inserted. Make sure the step is highlighted.
 
-In order for task recorder to insert a step, you must have the correct page open. The correct page is the page on which the new step occurs. Task recorder has a mechanism that determines what the active page is, and will disable the functionality if the correct page isn’t open. [![tg1](./media/tg1.png)](./media/tg1.png) When you are on the correct page, **Insert step** becomes available.
+In order for task recorder to insert a step, you must have the correct page open. The correct page is the page on which the new step occurs. Task recorder has a mechanism that determines what the active page is, and will disable the functionality if the correct page isn’t open. 
+
+[![tg1](./media/tg1.png)](./media/tg1.png) 
+
+
+When you are on the correct page, **Insert step** becomes available.
 
 [![tg2](./media/tg2-231x300.png)](./media/tg2.png)
 
@@ -71,15 +80,17 @@ If you want the first step in the task guide to be within a sub-task, create a s
 5. When you are done editing the task guide, click **Done editing**, and then choose one of the options to save or publish the task guide.
 
 ## <a name="collapse-recording-name-and-description"></a>Collapse Recording name and description
-You can expand and collapse the **Recording name** and **Recording description** fields. When these fields are collapsed, more steps will be visible in the Task recorder editing pane. [![tg4](./media/tg4-300x252.png)](./media/tg4.png)  
+You can expand and collapse the **Recording name** and **Recording description** fields. When these fields are collapsed, more steps will be visible in the Task recorder editing pane. 
+
+[![tg4](./media/tg4-300x252.png)](./media/tg4.png)  
 
 <a name="see-also"></a>See also
 --------
 
-[Task Recorder in Microsoft Dynamics 365 for Operations](task-recorder.md)
+[Create documentation or training using Task recordings](/dynamics365/operations/dev-itpro/user-interface/task-recorder)
 
-[Create documentation or training using Task recordings](task-recorder.md)
+[Task recorder quick reference](/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
 
-[Task recorder quick reference](task-recorder-quick-reference.md)
+
 
 

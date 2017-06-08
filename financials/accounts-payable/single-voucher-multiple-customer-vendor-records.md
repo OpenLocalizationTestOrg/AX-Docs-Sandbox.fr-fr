@@ -3,32 +3,38 @@ title: Single voucher with multiple customer or vendor records
 description: This topic provides an overview of what happens when you post a single voucher with multiple customer or vendor records. This functionality will be discontinued in future versions of Microsoft Dynamics 365 for Operations, as a result, we do not recommend using this method of posting because of the accounting impact to settlement processing.
 author: twheeloc
 manager: AnnBe
-ms.date: 2016-10-31 18 - 43 - 45
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 222534
 ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
 ms.search.region: global
 ms.author: abruer
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 3d692242d8caf8836882a94b91f0835dc4cd9035
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: b1038ea950141f0e7d4678cac9edd3b0bd5beb6f
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Single voucher with multiple customer or vendor records
 
+[!include[banner](../includes/banner.md)]
+
+
 This topic provides an overview of what happens when you post a single voucher with multiple customer or vendor records. This functionality will be discontinued in future versions of Microsoft Dynamics 365 for Operations, as a result, we do not recommend using this method of posting because of the accounting impact to settlement processing. 
 
-Some common examples where one voucher is used for multiple customers or vendors include balance transfers between customers, and netting balances between customers and vendors in the same organization. A voucher containing more than one customer or vendor can be entered using one of the following methods:
+Some common examples where one voucher is used for multiple customers or vendors include balance transfers between customers, and netting balances between customers and vendors in the same organization. 
+
+A voucher containing more than one customer or vendor can be entered using one of the following methods:
 
 -   Using a journal that has the **One voucher number only** option selected so that every line added to the journal is included on the same voucher.
 -   Using a multi-line voucher, where there is no offset ledger account, with more than one customer or vendor.
@@ -70,7 +76,9 @@ After posting, one voucher is created.
 | GNJL001     | 200110-001-  | Vendor balance   | -200.00                            |
 | GNJL001     | 200110-001-  | Vendor balance   | -300.00                            |
 
-Notice that the voucher contains three entries for the posting type of Vendor balance in the single voucher. There is no way to indicate that the 50.00 debit for 606300-001 and the 50.00 debit for 606300-002 are intended to offset the vendor balance entry of 200110-001. This is because the user entered the multiple vendor records in a single voucher. Using this example, we can analyze the impact that using one voucher has on the downstream settlement accounting. Assume that you pay 197.00 of the 200.00 invoice, taking a cash discount of 3.00. Notice that the cash discount account value is allocated across all of the dimensions from the invoice voucher’s expense accounts. This is because one voucher was used to post the above invoice, with no indication of how the user intended the expense distributions to correlate to the vendor balance in the single voucher.
+Notice that the voucher contains three entries for the posting type of Vendor balance in the single voucher. There is no way to indicate that the 50.00 debit for 606300-001 and the 50.00 debit for 606300-002 are intended to offset the vendor balance entry of 200110-001. This is because the user entered the multiple vendor records in a single voucher.
+
+Using this example, we can analyze the impact that using one voucher has on the downstream settlement accounting. Assume that you pay 197.00 of the 200.00 invoice, taking a cash discount of 3.00. Notice that the cash discount account value is allocated across all of the dimensions from the invoice voucher’s expense accounts. This is because one voucher was used to post the above invoice, with no indication of how the user intended the expense distributions to correlate to the vendor balance in the single voucher.
 
 |             |              |                      |           |            |
 |-------------|--------------|----------------------|-----------|------------|
@@ -122,7 +130,9 @@ In the following example, multiple vendor invoices are recorded in General ledge
 | GNJL001     | 200110-001-  | Vendor balance   | -100.00                                  | -114.00                                 |
 | GNJL001     | 200110-001-  | Vendor balance   | -200.00                                  | -228.00                                 |
 
-Notice that the voucher contains two entries for the posting type of Vendor balance in the single voucher. There is no way to indicate that the debit for 606300-001 is intended to offset the vendor balance entry of 100.00 to 200110-001. This is because the user entered multiple vendor records in a single voucher. Using this example, we can analyze the impact that using one voucher has on the downstream settlement accounting. Assume that your accounting currency is USD and the above transactions were posted in a transaction currency of EUR. Assume that you fully pay the 200.00 EUR invoice but you encounter a realized loss due to a difference in the exchange rate between the time you posted your invoice and payment. Notice that the realized loss account value is allocated across all of the dimensions from the invoice voucher’s expense accounts. In this case, both dimension 001 and 002 were allocated, even though the user’s perception may be that only 002 belongs to the expense account from the invoice that is being settled. This is because one voucher was used to post the above invoice, leaving no way to indicate how the user intended the expense distributions to correlate to the vendor balance in the single voucher.
+Notice that the voucher contains two entries for the posting type of Vendor balance in the single voucher. There is no way to indicate that the debit for 606300-001 is intended to offset the vendor balance entry of 100.00 to 200110-001. This is because the user entered multiple vendor records in a single voucher. 
+
+Using this example, we can analyze the impact that using one voucher has on the downstream settlement accounting. Assume that your accounting currency is USD and the above transactions were posted in a transaction currency of EUR. Assume that you fully pay the 200.00 EUR invoice but you encounter a realized loss due to a difference in the exchange rate between the time you posted your invoice and payment. Notice that the realized loss account value is allocated across all of the dimensions from the invoice voucher’s expense accounts. In this case, both dimension 001 and 002 were allocated, even though the user’s perception may be that only 002 belongs to the expense account from the invoice that is being settled. This is because one voucher was used to post the above invoice, leaving no way to indicate how the user intended the expense distributions to correlate to the vendor balance in the single voucher.
 
 |             |             |                    |                                          |                                         |
 |-------------|-------------|--------------------|------------------------------------------|-----------------------------------------|
@@ -152,7 +162,13 @@ Now, when INV2 is paid, the following entry will be made. Notice that the exchan
 | 14000056    | 200110-001- | Vendor balance     |                                          | -2.00                                   |
 
 ## <a name="one-voucher-for-balance-transfers-and-netting-scenarios"></a>One voucher for balance transfers and netting scenarios
-Two commonly used scenarios that utilize one voucher that contains multiple customers or vendors include balance transfers from one customer/vendor to another customer/vendor, and netting of a customer and vendor that are the same organization. The following two examples illustrate the preferred method for entering these scenarios in Dynamics 365 for Operations, as an alternative to entering them in one voucher. A *balance transfer* is one voucher with multiple customers, entered for the purpose of transferring the balance from one customer to another customer (same for vendors). This scenario can occur when the responsibility for paying the invoice shifts to another party, such as a child company shifting the responsibility to a parent company. This example assumes a sale where the customer is eligible for a cash discount if payment is made within 10 days. The customer in this example utilizes an insurance company that will be responsible for paying the bill. The insurance company is set up as a second customer in the system. The original customer’s balance is transferred to the insurance company, who pays the bill, taking a 2% cash discount for paying within the discount period. To illustrate, assume the following sale is made to customer ACME. The following accounting entries represent the sale.
+Two commonly used scenarios that utilize one voucher that contains multiple customers or vendors include balance transfers from one customer/vendor to another customer/vendor, and netting of a customer and vendor that are the same organization. The following two examples illustrate the preferred method for entering these scenarios in Dynamics 365 for Operations, as an alternative to entering them in one voucher. 
+
+A *balance transfer* is one voucher with multiple customers, entered for the purpose of transferring the balance from one customer to another customer (same for vendors). This scenario can occur when the responsibility for paying the invoice shifts to another party, such as a child company shifting the responsibility to a parent company. 
+
+This example assumes a sale where the customer is eligible for a cash discount if payment is made within 10 days. The customer in this example utilizes an insurance company that will be responsible for paying the bill. The insurance company is set up as a second customer in the system. The original customer’s balance is transferred to the insurance company, who pays the bill, taking a 2% cash discount for paying within the discount period. 
+
+To illustrate, assume the following sale is made to customer ACME. The following accounting entries represent the sale.
 
 |                    |                  |           |            |
 |--------------------|------------------|-----------|------------|
@@ -218,7 +234,9 @@ On the related voucher for cash discount, the financial dimensions will be used 
 ### 
 
 ## <a name="one-voucher-with-a-netting-for-multiple-customers-and-vendors"></a>One voucher with a netting for multiple customers and vendors
-Netting can be useful when an organization purchases and sells to the same company. Rather than paying the vendor invoices and waiting to receive payment for the customer invoices, the vendor and customer invoices are netted. The netting transaction is settled against the outstanding balances. To illustrate, assume that vendor 1001 and customer US-008 are the same entity, so your organization wants to net the payables and receivables balances before paying/receiving the remaining balance. Assume that the customer record owes 75.00 EUR and the vendor record is owed 100.00 EUR, meaning that you would prefer to net the balances and only pay the vendor 25.00 EUR. Further assume that the accounting currency is USD. In this case, a netting transaction is entered in one voucher in the account payable payment journal.
+Netting can be useful when an organization purchases and sells to the same company. Rather than paying the vendor invoices and waiting to receive payment for the customer invoices, the vendor and customer invoices are netted. The netting transaction is settled against the outstanding balances. 
+
+To illustrate, assume that vendor 1001 and customer US-008 are the same entity, so your organization wants to net the payables and receivables balances before paying/receiving the remaining balance. Assume that the customer record owes 75.00 EUR and the vendor record is owed 100.00 EUR, meaning that you would prefer to net the balances and only pay the vendor 25.00 EUR. Further assume that the accounting currency is USD. In this case, a netting transaction is entered in one voucher in the account payable payment journal.
 
 |             |                  |             |                 |           |            |                 |                    |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
@@ -234,5 +252,7 @@ To avoid unwanted issues with future settlements for this transaction, instead o
 | 002         | Vendor           | 1001        |                 |  75.00    |            | Ledger          | 999999---          |
 
  
+
+
 
 

@@ -3,28 +3,32 @@ title: Vendor collaboration invoicing workspace
 description: This topic explains how you can view vendor invoices and submit invoices from the vendor collaboration invoicing workspace.
 author: twheeloc
 manager: AnnBe
-ms.date: 2016-10-31 16 - 21 - 43
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations
+ms.search.scope: Operations, Core
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
 ms.author: abruer
-ms.dyn365.ops.intro: 01-11-2016
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: fb758a86d296d23dbb931426684eb80e841f8ce6
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7c8fe2fea08dbad625cd373ca316135ac4e29e13
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="vendor-collaboration-invoicing-workspace"></a>Vendor collaboration invoicing workspace
+
+[!include[banner](../includes/banner.md)]
+
 
 This topic explains how you can view vendor invoices and submit invoices from the vendor collaboration invoicing workspace.
 
@@ -55,9 +59,8 @@ You can create a new vendor invoice by selecting the **New** action on the **Ven
 
 
 
-<a name="see-also"></a>See also
---------
+For more information, see [Collaborating with vendors by using the Vendor portal](/dynamics365/operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
 
-[Collaborating with vendors by using the Vendor portal](collaborate-vendors-vendor-portal.md)
+
 
 

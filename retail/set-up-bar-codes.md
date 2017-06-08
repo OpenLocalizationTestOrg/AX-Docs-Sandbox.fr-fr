@@ -3,29 +3,33 @@ title: Set up bar codes
 description: This article describes how to use bar codes in Microsoft Dynamics 365 for Operations - Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 2015-12-03 21 - 39 - 21
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 15971
 ms.assetid: 6b4b2ac2-0344-41aa-8818-62c30017d5ac
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 2d3c066ac69e096ced2056399597e48ef044dd37
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: f182f719d2e20673db9b576d9831e060c351a550
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="set-up-bar-codes"></a>Set up bar codes
+
+[!include[banner](includes/banner.md)]
+
 
 This article describes how to use bar codes in Microsoft Dynamics 365 for Operations - Retail.
 
@@ -41,5 +45,7 @@ You can use bar codes to purchase and sell products, track product variants, and
 --------
 
 [Set up bar code masks](set-up-bar-code-masks.md)
+
+
 
 

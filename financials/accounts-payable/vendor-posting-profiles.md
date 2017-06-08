@@ -3,30 +3,34 @@ title: Vendor posting profiles
 description: Vendor posting profiles control the posting of vendor transactions to the general ledger.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-12 19 - 14 - 01
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: VendPosting
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 24691
 ms.assetid: 18def866-7655-4f0b-b299-eec83098d23a
 ms.search.region: Global
 ms.author: mfalkner
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 8b5405a7f1cc41261e8995ad1d17084bced7f3e1
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 2dbb8874323631a9bddb226834adf87d014c1c2f
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="vendor-posting-profiles"></a>Vendor posting profiles
+
+[!include[banner](../includes/banner.md)]
+
 
 Vendor posting profiles control the posting of vendor transactions to the general ledger.
 
@@ -133,8 +137,7 @@ If you want all vendor transactions to have the same posting profile, set up onl
 </tr>
 </tbody>
 </table>
-
-### 
+ 
 
 ### <a name="table-restrictions"></a>**Table restrictions**
 
@@ -147,6 +150,8 @@ Specify the following values to set up your posting profile:
 | **Settlement** | Select this option to enable automatic settlement of transactions that have this posting profile. If this option is cleared, you must manually settle transactions by using the Settle open transactions page. |
 | **Cancel**     | Select this option if you want to be able to cancel transactions that have this posting profile.                                                                                                               |
 | **Close**      | Select a posting profile to change to when transactions that have this posting profile are closed. A transaction is regarded as closed when it has been settled in full.                                       |
+
+
 
 
 

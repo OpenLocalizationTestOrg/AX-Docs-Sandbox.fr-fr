@@ -1,41 +1,44 @@
 ---
 title: Whole amount and Interval calculation options for sales tax codes
 description: This article explains the options for the Calculation method field on sales tax codes and how sales tax is calculated for intervals and whole amounts.
-author: ShylaThompson
+author: twheeloc
 manager: AnnBe
-ms.date: 2015-09-14 09 - 43 - 08
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TaxData, TaxTable
 audience: Application User
-ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 5624
 ms.assetid: 96166db4-b7ca-470b-aeb7-0a66fe0554c4
 ms.search.region: Global
 ms.author: vstehman
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 76615fb7407a1bf2729c319d23c29962a8d1f2da
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 093047d43a39fa723eb99e3daf34cf33fa81a099
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Whole amount and Interval calculation options for sales tax codes
 
+[!include[banner](../includes/banner.md)]
+
+
 This article explains the options for the Calculation method field on sales tax codes and how sales tax is calculated for intervals and whole amounts.
 
 You can set up a sales tax code to be calculated based on a whole amount or an interval amount. In the Sales tax codes page, use the Calculation method field on the Calculation FastTab to select how to calculate a sales tax code.
 -   Whole amount – The tax rate is applied to the whole taxable amount.
 -   Interval – The taxable amount is divided into parts, each of which falls in a range that has a specific sales tax rate. The part of the amount that falls in a given interval is taxed according to the tax rate for that interval. The sales tax is the sum of the tax amounts that are calculated for each amount interval.
-    | **Note**                                                                                                                                                |
-    |---------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | The Interval option is available only when you select Line in the Calculation method field in the Sales tax area of the General ledger parameters page. |
+> [!NOTE]                                                                                                                              
+> The Interval option is available only when you select Line in the Calculation method field in the Sales tax area of the General ledger parameters page. 
 
 Intervals are set up in the Sales tax code values page by entering Minimum and Maximum limit amounts per tax rate. For taxes to be calculated on all taxable amounts, regardless of which calculation method is selected, intervals must follow these rules:
 -   The first interval must have a Minimum limit of zero.
@@ -82,15 +85,11 @@ The sales tax is the sum of the tax amounts that are calculated for each amount 
 | 305.00                 | (50.00 \* 0.30 = 15.00) + (50.00 \* 0.20 = 10.00) + (205 \* 0.10 = 20.50) | 45.50     |
 
  
--
+
+For more information, see [Determining sale tax rates based on the Marginal base and Calculation method fields](marginal-base-field.md).
 
 
 
-<a name="see-also"></a>See also
---------
 
-[Determining sale tax rates based on the Marginal base and Calculation method fields](marginal-base-field.md)
-
-[Sales tax calculation methods in the Origin field](https://ax.help.dynamics.com/en/wp-admin/post.php?post=79751&action=edit)
 
 

@@ -1,33 +1,37 @@
 ---
 title: Reimbursements in the public sector
 description: This topic answers common questions related to reimbursements in the public sector.
-author: rschloma
+author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-13 05 - 21 - 25
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustBillingClassification
 audience: Application User
-ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 27311
 ms.assetid: 9d61d1d8-1672-4bd0-ae0d-605b09240890
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: f475d179f7afe36f59ca6710d6dfa3a3bd756d3c
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 868018a921fd9ecf21dcd935c435ed0ccbf443ba
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="reimbursements-in-the-public-sector"></a>Reimbursements in the public sector
+
+[!include[banner](../includes/banner.md)]
+
 
 This topic answers common questions related to reimbursements in the public sector. 
 
@@ -61,13 +65,8 @@ No. Reimbursements are not processed for any customer who has pending settlement
 ## <a name="can-i-reverse-reimbursement-settlements"></a>Can I reverse reimbursement settlements?
 No, not directly. However, you could use general journal entries to create transactions that would have the effect of reversing the general ledger entries.
 
-<a name="see-also"></a>See also
---------
 
-[Accounts receivable](accounts-receivable.md)
 
-[Accounts receivable in the public sector](https://ax.help.dynamics.com/en/?post_type=incsub_wiki&p=169941)
 
-[Billing classifications and billing codes in the public sector](https://ax.help.dynamics.com/en/?post_type=incsub_wiki&p=169891)
 
 

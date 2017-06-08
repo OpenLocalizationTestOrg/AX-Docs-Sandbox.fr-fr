@@ -3,34 +3,38 @@ title: Settle a partial customer payment before the discount date with a final p
 description: This article discusses the effect of settling payments to invoices for customers. The scenario focuses on the effects in the subledger, not in General ledger.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-02 23 - 34 - 54
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 14584
 ms.assetid: e54936f5-053b-4ed3-b778-42c7e9aeb7cf
 ms.search.region: Global
 ms.author: kweekley
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: b5e29b803be6eb94e24afb6b840df0e909c82269
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 4399cf66e423d2e6436c664e6485a77d9ad75d69
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Settle a partial customer payment before the discount date with a final payment after the discount date
 
+[!include[banner](../includes/banner.md)]
+
+
 This article discusses the effect of settling payments to invoices for customers. The scenario focuses on the effects in the subledger, not in General ledger.
 
-Fabrikam sells goods to customer 4027. Fabrikam offers a cash discount of 1 percent if the invoice is paid in 14 days. Invoices must be paid in 30 days. Fabrikam also offers cash discounts on partial payments. The [settlement parameters](http://ax.help.dynamics.com/en/?p=246884) are located on the **Accounts receivable parameters** page.
+Fabrikam sells goods to customer 4027. Fabrikam offers a cash discount of 1 percent if the invoice is paid in 14 days. Invoices must be paid in 30 days. Fabrikam also offers cash discounts on partial payments. The settlement parameters are located on the **Accounts receivable parameters** page.
 
 ## <a name="invoice"></a>Invoice
 On June 25, Arnie enters and posts an invoice for 1,000.00 for customer 4027. Arnie can view this invoice by using the **Transactions** button on the **Customers** page.
@@ -105,6 +109,8 @@ Arnie changes the value in the **Use cash discount** field back to **Normal**, b
 | ARP-10020  |                  | 7/1/2015  |         |                                      | 297.00                                | 0.00    | USD      |
 | DISC-10020 |                  | 7/1/2015  |         |                                      | 3.00                                  | 0.00    | USD      |
 | ARP-10021  |                  | 7/11/2015 |         |                                      | 700.00                                | 0.00    | USD      |
+
+
 
 
 

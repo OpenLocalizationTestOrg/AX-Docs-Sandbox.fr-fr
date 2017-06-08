@@ -3,30 +3,34 @@ title: Sales tax calculation methods in the Origin field
 description: This article explains the options in the Origin field on the sales tax codes page and how sales tax is calculated based on the selected option for a sales tax code.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 2015-09-14 07 - 29 - 34
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: vstehman
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 97ba2db5593e339139e674f5d671d25a80ed276e
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: f420341a7d5d12825a983ee96e814f0eedbc60c4
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Sales tax calculation methods in the Origin field
+
+[!include[banner](../includes/banner.md)]
+
 
 This article explains the options in the Origin field on the sales tax codes page and how sales tax is calculated based on the selected option for a sales tax code.
 
@@ -121,8 +125,10 @@ Document / journal is set to Amounts include sales tax = No Transaction line amo
 <a name="see-also"></a>See also
 --------
 
-[Determining sale tax rates based on the Marginal base and Calculation method fields](https://ax.help.dynamics.com/en/wp-admin/post.php?post=1411&action=edit)
+[Determining sale tax rates based on the Marginal base and Calculation method fields](marginal-base-field.md)
 
-[Whole amount and Interval calculation options for sales tax codes](https://ax.help.dynamics.com/en/wp-admin/post.php?post=76941&action=edit)
+[Whole amount and Interval calculation options for sales tax codes](whole-amount-interval-options-sales-tax-codes.md)
+
+
 
 

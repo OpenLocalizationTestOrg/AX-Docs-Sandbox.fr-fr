@@ -1,40 +1,49 @@
 ---
 title: Settlement priority in the public sector
-description: In Microsoft Dynamics &quot;AX 7,&quot; you can manually select transactions to settle, or you can use the automatic settlement functionality. Public-sector organizations have additional options for prioritizing settlements by using billing classifications. These options can be used with automatic or manual settlement.
-author: rschloma
+description: In Microsoft Dynamics 365 for Operations, you can manually select transactions to settle, or you can use the automatic settlement functionality. Public-sector organizations have additional options for prioritizing settlements by using billing classifications. These options can be used with automatic or manual settlement.
+author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-07 16 - 19 - 52
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustBillingClassification, CustBillingCode, CustParameters, CustSettlementPrioritySetup, LedgerParameters
 audience: Application User
-ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 19551
 ms.assetid: b6f96e12-5614-4edf-9f67-47bf011b6ee7
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: dcfd0f85690eb6182d86f85019571a17f7ab89d3
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: f07fafed4ef80f8d6c692ef24e29252ffdf95b75
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="settlement-priority-in-the-public-sector"></a>Settlement priority in the public sector
 
-In Microsoft Dynamics 'AX 7,' you can manually select transactions to settle, or you can use the automatic settlement functionality. Public-sector organizations have additional options for prioritizing settlements by using billing classifications. These options can be used with automatic or manual settlement.
+[!include[banner](../includes/banner.md)]
+
+
+In Microsoft Dynamics 365 for Operations, you can manually select transactions to settle, or you can use the automatic settlement functionality. Public-sector organizations have additional options for prioritizing settlements by using billing classifications. These options can be used with automatic or manual settlement.
 
 <a name="how-to-set-the-general-ledger-parameters-and-accounts-receivable-parameters-for-settlement-priority"></a>How to set the general ledger parameters and accounts receivable parameters for settlement priority
 ---------------------------------------------------------------------------------------------------
 
-To use billing classifications to control settlement priorities, you must set both a sales tax parameter in the General ledger app and settlement parameters in the Accounts receivable app. **Note**: Your billing classifications should be completely set up and enabled before you set these parameters. As soon as you enable billing classifications, Billing classification becomes a required field on the free text invoice. To learn more about billing classifications, including how to enable them, see [Billing classifications and billing codes in the public sector](billing-classifications-billing-codes-public-sector.md).
+To use billing classifications to control settlement priorities, you must set both a sales tax parameter in the General ledger app and settlement parameters in the Accounts receivable app. 
+
+> [!NOTE]
+> Your billing classifications should be completely set up and enabled before you set these parameters. As soon as you enable billing classifications, Billing classification becomes a required field on the free text invoice. 
+
+To learn more about billing classifications, including how to enable them, see [Billing classifications and billing codes in the public sector](billing-classifications-billing-codes-public-sector.md).
 
 -   On the **General ledger parameters** page, in the **Sales tax** section, on the **Tax options** FastTab, select the **Sales tax amount per invoice line** option.
 -   On the **Accounts receivable parameters** page, in the **Settlement** section, do the following:
@@ -66,9 +75,7 @@ During the settlement process, settlement attributes are considered first, then 
 -   After you enable the **Billing** attribute on the **Settlement priority** page, use the **Up** and **Down** buttons at the top of the page to arrange the active settlement attributes in priority order.
 
 
-<a name="see-also"></a>See also
---------
 
-[Accounts receivable](accounts-receivable.md)
+
 
 

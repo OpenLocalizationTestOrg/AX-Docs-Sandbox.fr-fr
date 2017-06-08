@@ -3,29 +3,33 @@ title: Receipt templates and printing
 description: This article describes how to modify form layouts to control how receipts, invoices, and other documents are printed. Microsoft Dynamics 365 for Operations - Retail includes a form layout designer that you can use to easily create and modify various kinds of form layouts.
 author: josaw1
 manager: AnnBe
-ms.date: 2016-03-01 21 - 00 - 50
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 57841
 ms.assetid: e530dd8e-95e2-4021-90bd-ce1235f9e250
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 75e15989ee49e617cec0f5a481136761b94154d9
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 297f4adfe5005e4294df382894f9d54f47bbd54b
+ms.openlocfilehash: 9b34c26209b9aa48604b9cd51220e5812b1fbf22
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="receipt-templates-and-printing"></a>Receipt templates and printing
+
+[!include[banner](includes/banner.md)]
+
 
 This article describes how to modify form layouts to control how receipts, invoices, and other documents are printed. Microsoft Dynamics 365 for Operations - Retail includes a form layout designer that you can use to easily create and modify various kinds of form layouts.
 
@@ -57,7 +61,8 @@ Use the form layout designer to graphically create the layout of the form docume
     -   **Prefix** – Enter the value that appears at the beginning of the field. This setting applies only to the **Lines** section of the layout.
     -   **Characters** – Specify the maximum number of characters that the field can contain if the element contains a variable. If the text in the field is longer than the number of character that you specify, the text is truncated to fit the field.
     -   **Variable** – This check box is selected automatically if the element contains a variable and can't be customized.
-    -   **Font type** – Set the font style to either **Normal** or **Bold**. Bold letters use two times as much space as normal letters. Therefore, some characters might be truncated.
+    -   **Font type** – Set the font style to either **Regular** or **Bold**. Bold letters use two times as much space as regular letters. Therefore, some characters might be truncated.
+    -   **Font size** – Set the font size to either **Regular** or **Large**. Large letters are two times higher than regular letters. Therefore, using large letters may lead to overlapping text in the receipt.
     -   **Delete** – Click this button to remove the selected part from the form layout.
 
 ## <a name="assign-receipt-profiles"></a>Assign receipt profiles
@@ -67,5 +72,7 @@ Receipt profiles are assigned directly to printers through the hardware profile.
 2.  Select the printer, and then, in the **Receipt profile** field, assign the receipt profile to use on the register.
 
 **Note:** If two printers are used, one printer can be used to print standard 40-column thermal receipts. The second printer is typically used to print full-page receipt types that require more information. These receipt types include customer order receipts and customer invoices.
+
+
 
 

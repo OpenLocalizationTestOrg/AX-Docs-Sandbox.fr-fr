@@ -3,30 +3,34 @@ title: Set up a continuity program for a call center
 description: This article describes how to set up a continuity program for a call center.
 author: josaw1
 manager: AnnBe
-ms.date: 2015-12-03 22 - 12 - 11
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16081
 ms.assetid: 426a9be7-a931-4780-b372-e06f6083dd60
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 4e56ee606988fb7b918a31778ea36a98e4ea59ec
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: c0a9eec6bdf67deca885b30082b958869e64aae2
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="set-up-a-continuity-program-for-a-call-center"></a>Set up a continuity program for a call center
+
+[!include[banner](includes/banner.md)]
+
 
 This article describes how to set up a continuity program for a call center.
 
@@ -47,6 +51,8 @@ After you've set up a continuity program as described above, you can create a co
 -   **Extend continuity lines** (if required) – Extend the number of times that a continuity event can be repeated. The repetition of shipments can then extend beyond the limit that was set in the **Continuity repeat threshold** field in the call center parameters.
 -   **Perform a continuity update** (if required) – Synchronize changes between the continuity program and the continuity parent sales orders.
 -   **Close continuity parent lines and orders** – Close continuity orders.
+
+
 
 
 

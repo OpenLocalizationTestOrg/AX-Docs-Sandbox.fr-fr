@@ -3,30 +3,34 @@ title: View journal entries and transactions
 description: This article explains the various ways that you can view journal entries and transactions.
 author: RobinARH
 manager: AnnBe
-ms.date: 2015-12-01 16 - 42 - 09
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerTransVoucher
 audience: Application User
 ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 13031
 ms.assetid: 281c7ea6-4dfd-4d1f-994f-c361ee299dbe
 ms.search.region: Global
 ms.author: aolson
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 2793c7a26d4ffa3b3b5edd67d0cb1a7aa57a0ae3
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 8607f27bc36d62865b03f433c24c90763e8e0bec
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="view-journal-entries-and-transactions"></a>View journal entries and transactions
+
+[!include[banner](../includes/banner.md)]
+
 
 This article explains the various ways that you can view journal entries and transactions. 
 
@@ -52,13 +56,11 @@ In addition to the financial reports, you can use the following ledger reports t
 -   **Transaction origin** – This transaction report shows the account by journal, and by transaction, accounting, and reporting currency. It also shows each line of the journal that was used as an offset.
 
 
-<a name="see-also"></a>See also
---------
+##<a name="see-also"></a>See also
+- [General ledger account balances](general-ledger-account-balances.md) 
+- [Accounting source explorer](..\accounts-payable\accounting-source-explorer.md)
+- [Financial reporting](financial-reporting-getting-started.md)
 
-[General ledger account balances](general-ledger-account-balances.md)
 
-[Accounting source explorer](https://ax.help.dynamics.com/en/?post_type=incsub_wiki&p=245244)
-
-[Financial reporting](financial-reporting-getting-started.md)
 
 

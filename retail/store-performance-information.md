@@ -3,29 +3,33 @@ title: Analyze store performance
 description: This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about store performance, based on your Microsoft Dynamics 365 for Operations data.
 author: josaw1
 manager: AnnBe
-ms.date: 2016-03-01 20 - 59 - 53
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 57811
 ms.assetid: 495a66f0-491a-4688-842d-51c33c37676f
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 0582bd48abb9fd08da8c07723b42e42752012b2e
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: e31e24e06bb069ebe565a63b1cc4ff4c66dcf452
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="analyze-store-performance"></a>Analyze store performance
+
+[!include[banner](includes/banner.md)]
+
 
 This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about store performance, based on your Microsoft Dynamics 365 for Operations data. 
 
@@ -43,6 +47,5 @@ This report provides a snapshot of following summaries as part of store performa
 -   Price overrides summary
 -   Discounts summary
 
-For more information, see [Creating next-generation reporting solutions](create-nextgen-reporting-solutions.md).
 
 

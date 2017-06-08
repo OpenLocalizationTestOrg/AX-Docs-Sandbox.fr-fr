@@ -3,29 +3,33 @@ title: Straight line life remaining depreciation
 description: This article gives an overview of the Straight line life remaining method of depreciation.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-02 22 - 58 - 08
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetDepreciationProfile
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 13851
 ms.assetid: 0fa2f71a-596c-414c-a6e6-8f7405a0bf81
 ms.search.region: Global
 ms.author: saraschi
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 02cfacc7df1b88e4bbd1c3abd226b5434422ca86
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 765825ba43cad44b076ea6628d2787011e97fc57
+ms.contentlocale: fr-fr
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="straight-line-life-remaining-depreciation"></a>Straight line life remaining depreciation
+
+[!include[banner](../includes/banner.md)]
+
 
 This article gives an overview of the Straight line life remaining method of depreciation.
 
@@ -36,7 +40,7 @@ You can select either **Calendar** or **Fiscal** in the **Depreciation year** fi
 
 ### <a name="calendar"></a>Calendar
 
-If you select **Calendar** in the ****Depreciation year**** field, a year of January 1 through December 31 is assumed, even if you've defined the fiscal calendar differently. The **Calendar** option updates the depreciation base on January 1 of each year. Typically, the depreciation base is the net book value minus the salvage value. In the example later in this topic, the depreciation base is the numerator in the first expression in the calculations column. If you select **Calendar** as the depreciation year, the following options are available in the **Period frequency** field:
+If you select **Calendar** in the ***Depreciation year*** field, a year of January 1 through December 31 is assumed, even if you've defined the fiscal calendar differently. The **Calendar** option updates the depreciation base on January 1 of each year. Typically, the depreciation base is the net book value minus the salvage value. In the example later in this topic, the depreciation base is the numerator in the first expression in the calculations column. If you select **Calendar** as the depreciation year, the following options are available in the **Period frequency** field:
 
 -   **Yearly** posts an amount on December 31.
 -   **Monthly** posts a monthly amount at the end of each calendar month.
@@ -73,6 +77,8 @@ The depreciation amount is the same every year: (Acquisition cost – Salvage va
 | Year 3 | (7,000 – 1,000) ÷ 3 = 2,000                   | 5,000                                 |
 | Year 4 | (5,000 – 1,000) ÷ 2 = 2,000                   | 3,000                                 |
 | Year 5 | (3,000 – 1,000) ÷ 1 = 2,000                   | 1,000                                 |
+
+
 
 
 
